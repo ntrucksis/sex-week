@@ -25,17 +25,52 @@
 .about-wrapper {
   width: 100%;
   text-align: center;
-  padding-left: 36%;
-  margin-bottom: 20px;
+  display: inline-block;
 }
+
 
 .about-section {
   text-align: center;
   width: 400px;
   height: 300px;
   border: 1px solid black;
+  margin: 0;
+  display: inline-block;
 }
 
-.home-wrapper {
-  cursor: grab;
+.enroll-wrapper {
+  margin-left: 300px;
+  width: 300px;
+  height: 250px;
+  border: 1px solid black;
+  text-align: center;
+  display: inline-block;
+}
+
+.socials {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.facebook-icon {
+  padding: 0;
+  border: 0;
+  margin-right: 200px;
+}
+
+.facebook-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.instagram-icon {
+  padding: 0;
+  border: 0;
+  margin-left: 200px;
+}
+
+.instagram-icon img {
+  width: 40px;
+  height: 40px;
 }
