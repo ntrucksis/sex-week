@@ -7,7 +7,7 @@ main {
 
 body {
     color: #023059;
-    cursor: url('../images/vibrator-1.png'), auto;
+    cursor: url('../images/vibrator-1.png') 10 3, auto;
 }
 
 h1 {
