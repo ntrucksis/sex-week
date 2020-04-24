@@ -1,5 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,10 @@ import { DOCUMENT } from '@angular/common';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(@Inject(DOCUMENT) private document: Document) { }
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private router: Router
+) { }
 
   ngOnInit() {
   }
@@ -19,6 +23,10 @@ export class HomeComponent implements OnInit {
 
   goToInstagram(): void {
     this.document.location.href = "https://instagram.com/sexweeknu?igshid=1crtwn4dql9ip";
+  }
+
+  goToEvents(): void {
+    this.router.navigate(["/events"]);
   }
 
 
