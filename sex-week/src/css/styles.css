@@ -1,13 +1,11 @@
-main {
-    background-color: #a3dae3;
-    
-}
+
 
 
 
 body {
     color: #023059;
     cursor: url('../images/vibrator-1.png') 10 3, auto;
+    background-color: #a3dae3;
 }
 
 h1 {
