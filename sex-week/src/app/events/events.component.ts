@@ -9,7 +9,6 @@ import { Event, EVENTS } from '../models';
 export class EventsComponent implements OnInit {
 
   events = EVENTS;
-  event = this.events[0];
 
   constructor() { }
 
