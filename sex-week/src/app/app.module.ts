@@ -16,13 +16,13 @@ import { AboutComponent } from './about/about.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    EventsComponent
     NavbarComponent,
     BannerComponent,
     FooterComponent,
     SpotifyComponent,
     StreamsComponent,
-    AboutComponent
+    AboutComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
