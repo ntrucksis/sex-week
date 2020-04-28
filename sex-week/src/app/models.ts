@@ -4,6 +4,7 @@ export interface Event {
   pic: string;
   desc: string;
   id: number;
+  regLink: string;
 }
 
 export const EVENTS: Event[] = [
@@ -29,7 +30,8 @@ sexuality). As a sensualist, Coriama utilizes various modalities that heavily
 focus on spirituality and eroticism to highlight sexuality as a
 healing art. She’s known for her masturbation philosophies and
  approach to building pleasure based communities.`,
-    id: 1
+    id: 1,
+    regLink: ""
   },
   {
     title: 'Sex Workers Outreach Project',
@@ -40,7 +42,8 @@ healing art. She’s known for her masturbation philosophies and
     this workshop she examines and deconstructs our notions of sexuality, labor,
      and economy.  A critical look is taken at our concepts of justice and best
       practices moving forward are discussed.`,
-    id: 2
+    id: 2,
+    regLink: ""
   },
   {
     title: 'Family Feud',
@@ -51,7 +54,8 @@ healing art. She’s known for her masturbation philosophies and
       win some prizes!! Find 4 people to register for a team and apply to
        participate. Please only register to play if you and 3 other people
        are able to make it to the ENTIRE event.`,
-    id: 3
+    id: 3,
+    regLink: ""
   },
   {
     title: 'Sex Story Slam',
@@ -60,7 +64,8 @@ healing art. She’s known for her masturbation philosophies and
     desc: `Come share your funniest, raunchiest, grossest sex stories!! If your
      story gets voted for best in its category you can win a prize! Sign up to
       share here: `,
-    id: 3
+    id: 4,
+    regLink: ""
   },
   {
     title: 'Cunty MeMe',
@@ -76,7 +81,8 @@ healing art. She’s known for her masturbation philosophies and
      Brooklyn, NY raised on the south side of Chicago. As a poet, singer/songwriter/
      pianist, they create cunty, loud, and arrogant art to empower themselves and
     anyone who resonates.`,
-    id: 4,
+    id: 5,
+    regLink: ""
   },
   {
     title: 'Cunty MeMe',
@@ -84,6 +90,7 @@ healing art. She’s known for her masturbation philosophies and
     pic: 'insert',
     desc: `Join us for a night of fun and enjoy the cooooool tunes of Cunty
     MeMe! You can find their music here:`,
-    id: 5
+    id: 6,
+    regLink: ""
   }
 ];

@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { EventsComponent } from './events/events.component';
+import { StreamsComponent } from './streams/streams.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent },
   {path: '', redirectTo: '/home', pathMatch: 'full'},
-  {path: 'events', component: EventsComponent}
+  {path: 'events', component: EventsComponent},
+  {path: 'stream', component: StreamsComponent}
 ]
 
 @NgModule({
