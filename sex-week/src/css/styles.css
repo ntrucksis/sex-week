@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 a:hover{
     cursor: url('../assets/images/nipple.png') 21 21, auto !important;
 }
@@ -42,3 +44,4 @@ button, .btn {
 .navbar {
     background-color: #023059;
 }
+

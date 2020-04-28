@@ -30,3 +30,17 @@
 .nav-item.active .nav-link{
     border-bottom-color: #fff;
 }
+
+.nav-item:hover {
+    background-color: #023059;
+    background: #023059;
+}
+
+.nav-item {
+    padding-bottom: 0.5rem;
+    transition: 0.3s;
+}
+
+.navbar {
+    padding-bottom: 0;
+}
