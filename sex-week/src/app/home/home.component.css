@@ -104,3 +104,11 @@
   .featurette {
     align-items: center;
   }
+
+  .home-wrapper {
+    background-color: #a3dae3;
+  }
+
+  .marketing {
+    padding-bottom: 2em;
+  }

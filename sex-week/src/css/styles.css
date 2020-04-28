@@ -9,9 +9,11 @@ a:hover{
 body {
     color: #023059;
     cursor: url('../assets/images/vibrator-1.png') 21 0, auto;
-    background-color: #a3dae3;
-}
+    padding: 0;
+} 
 
+
+  
 h1 {
     color: #f8b195;
 }
