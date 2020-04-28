@@ -92,5 +92,30 @@ healing art. She’s known for her masturbation philosophies and
     MeMe! You can find their music here:`,
     id: 6,
     regLink: ""
+  },
+  {
+    title: 'Rainbow Alliance ft Veronica Scorpio and Tommie Foolerie',
+    subtitle: 'DRG_MKE_UP- Drag Makeup Tutorials And Q&A',
+    pic: '',
+    desc: `Join the Veronica Scoripo and Tommie Foolerie of Rainbow Alliance
+    with a drag tutorial!! They’ll each be doing some looks for us and
+     answering questions reverse bingo style. `,
+    id: 6,
+    regLink: ''
+  },
+  {
+    title: 'Ying’s Nudes Skillshare',
+    subtitle: 'NOODZ_THRY 101-7',
+    pic: '',
+    desc: `Join Ying, resident photographer and general baddie, in learning to
+     appreciate ALLLL aspects and ALLLL angles of your body! Enhance your nude
+      taking capabilities and dazzle yourself and any potential recipients.
+       We will talk about angles, props, lighting, and more importantly we will
+        discuss the ways in which we touch, document, appreciate, and make peace
+         of our bodies. This workshop will be open to everyone but has a focus
+          for non white and non skinny bodies. No special equipment needed ;)
+           Content Warning: Sample photos including nudity will be shown!`,
+    id: 7,
+    regLink: ''
   }
 ];
