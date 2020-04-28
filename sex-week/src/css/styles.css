@@ -1,10 +1,12 @@
 
-
+a:hover{
+    cursor: url('../assets/images/nipple.png') 21 21, auto !important;
+}
 
 
 body {
     color: #023059;
-    cursor: url('../images/vibrator-1.png') 10 3, auto;
+    cursor: url('../assets/images/vibrator-1.png') 21 0, auto;
     background-color: #a3dae3;
 }
 
@@ -15,7 +17,7 @@ h1 {
 button, .btn {
     background-color: #f8b195;
     color: #023059;
-    cursor: url('../images/vibrator-1.png'), auto;
+    cursor: url('../assets/images/vibrator-1.png') 21 0, auto;
 }
 .light-blue {
     color: #a3dae3;

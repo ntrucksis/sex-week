@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #FADEBA;
+    padding-top: 0;
+}
+
+
+.transparent {
+    background-color: transparent;
+}
+
+.nav-link {
+    color: white;
+    text-shadow: 0.25px 0.25px .25px grey;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.nav-link{
+    border-bottom: .25rem solid transparent;
+    padding-bottom: 0.25rem;
+    cursor: pointer;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 1.125em;
+}
+
+.nav-item.active .nav-link{
+    border-bottom-color: #fff;
+}
