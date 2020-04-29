@@ -117,5 +117,21 @@ healing art. She’s known for her masturbation philosophies and
            Content Warning: Sample photos including nudity will be shown!`,
     id: 7,
     regLink: ''
+  },
+  {
+    title: 'Ela Przbylo',
+    subtitle: `SEXLTY 101-3-Asexuality and Aromanticism 101: Building an Erotic
+    Toolkit`,
+    pic: '',
+    desc: `Ela is Assistant Professor in the Department of English and core
+     faculty in the Women’s and Gender Studies Program at Illinois State
+      University. This workshop with cover basic ace & aro terminology and help
+       participants dream up an erotic toolkit that includes and centralizes
+       ace & aro experiences and contributions. Participants should bring glue,
+        scissors, colored paper, and old magazines or at minimum a paper and
+         pen. If you’re unable to gather supplies please still feel free to
+          attend!`,
+    id: 8,
+    regLink: ''
   }
 ];

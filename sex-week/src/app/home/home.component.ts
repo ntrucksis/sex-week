@@ -22,6 +22,9 @@ export class HomeComponent implements OnInit {
     this.router.navigate(["/events"]);
   }
 
+  goToStream(): void {
+    this.router.navigate(['/streams']);
+  }
+
 
 }
-

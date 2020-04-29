@@ -1,13 +1,13 @@
 <app-navbar></app-navbar>
-<div class="events" *ngFor="let event of events">
-  <div class="event">
-    {{event.title}}
-    <br />
-    {{event.subtitle}}
-    <br />
-    {{event.desc}}
-    <br />
-    <button>Enroll Button</button>
+<div class="events">
+  <div class="event" *ngFor="let event of events">
+      {{event.title}}
+      <br />
+      {{event.subtitle}}
+      <br />
+      {{event.desc}}
+      <br />
+      <button>Enroll Button</button>
   </div>
 </div>
 
