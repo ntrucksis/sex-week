@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { EVENTS } from '../models';
+
 
 @Component({
   selector: 'app-streams',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./streams.component.css']
 })
 export class StreamsComponent implements OnInit {
+
+  events = EVENTS;
 
   constructor() { }
 

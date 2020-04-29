@@ -25,6 +25,9 @@ export class NavbarComponent implements OnInit {
     this.router.navigate(["/home"]);
   }
 
+  goToStreams(): void {
+    this.router.navigate(["/streams"]);
+  }
 
 
   // ** This should have been in JQuery but I had an Issue with getting JQuery to work with Angular -Nelly//
