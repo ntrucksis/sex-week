@@ -1,22 +1,63 @@
+html {
+    scroll-behavior: smooth;
 
-
+}
+a:hover{
+    cursor: url('../assets/images/nipple.png') 21 21, auto !important;
+}
 
 
 body {
     color: #023059;
-    cursor: url('../images/vibrator-1.png') 10 3, auto;
-    background-color: #a3dae3;
-}
+    cursor: url('../assets/images/vibrator-1.png') 21 0, auto;
+    padding: 0;
+    font-family: 'Maven Pro', sans-serif;
+} 
 
+
+  
 h1 {
     color: #f8b195;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
 }
 
 button, .btn {
     background-color: #f8b195;
     color: #023059;
-    cursor: url('../images/vibrator-1.png'), auto;
+    cursor: url('../assets/images/vibrator-1.png') 21 0, auto;
+    text-transform: uppercase;
+    font-weight: 600;
 }
+
+
+.btn:hover {
+        transition: transform .3s; 
+        transform: scale(1.05);
+        font-size: 500;
+      
+}
+
+.high-col .btn:hover {
+    background-color: #023059;
+}
+
+.high-1 .btn:hover {
+    color: #F8B195;
+  }
+
+  .high-2 .btn:hover  {
+    color: #E69597;
+  }
+
+  .high-3 .btn:hover  {
+    color: #FF7477;
+  }
+
+
 .light-blue {
     color: #a3dae3;
 }
@@ -40,3 +81,5 @@ button, .btn {
 .navbar {
     background-color: #023059;
 }
+
+

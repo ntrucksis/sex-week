@@ -17,13 +17,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  goToFacebook(): void {
-    this.document.location.href = "https://facebook.com/northwesternsexweek/";
-  }
-
-  goToInstagram(): void {
-    this.document.location.href = "https://instagram.com/sexweeknu?igshid=1crtwn4dql9ip";
-  }
 
   goToEvents(): void {
     this.router.navigate(["/events"]);
