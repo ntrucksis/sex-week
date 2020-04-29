@@ -79,7 +79,7 @@
   }
 
   .high-col:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
     z-index: 1;
   }
 
@@ -93,12 +93,11 @@
 
   .high-btn {
     background-color: transparent;
-    border: 4px solid #023059;
     font-size: 1.75em;
     border: 3px solid #023059;
     padding-left: 1em;
     padding-right: 1em;
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 
   .featurette {
@@ -112,3 +111,5 @@
   .marketing {
     padding-bottom: 2em;
   }
+
+
