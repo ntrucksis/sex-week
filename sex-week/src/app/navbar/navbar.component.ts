@@ -25,8 +25,8 @@ export class NavbarComponent implements OnInit {
     this.router.navigate(["/home"]);
   }
 
-  goToStream(): void {
-    this.router.navigate(["/stream"]);
+  goToStreams(): void {
+    this.router.navigate(["/streams"]);
   }
 
 }

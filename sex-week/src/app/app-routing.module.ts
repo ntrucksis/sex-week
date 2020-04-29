@@ -9,7 +9,7 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent },
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'events', component: EventsComponent},
-  {path: 'stream', component: StreamsComponent}
+  {path: 'streams', component: StreamsComponent}
 ]
 
 @NgModule({

@@ -9,7 +9,7 @@ export interface Event {
 
 export const EVENTS: Event[] = [
   {
-    title: 'sex kiki',
+    title: 'sex KiKi',
     subtitle: 'MSTRBATION 101-6 – Masturbation for Manifestation',
     pic: "hello",
     desc: `Masturbation is a catalyst for radical self-love.
@@ -95,7 +95,7 @@ healing art. She’s known for her masturbation philosophies and
   },
   {
     title: 'Rainbow Alliance ft Veronica Scorpio and Tommie Foolerie',
-    subtitle: 'DRG_MKE_UP- Drag Makeup Tutorials And Q&A',
+    subtitle: 'DRG_MKE_UP 102-9- Drag Makeup Tutorials And Q&A',
     pic: '',
     desc: `Join the Veronica Scoripo and Tommie Foolerie of Rainbow Alliance
     with a drag tutorial!! They’ll each be doing some looks for us and
