@@ -30,11 +30,11 @@ button, .btn {
     color: #023059;
     cursor: url('../assets/images/vibrator-1.png') 21 0, auto;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 
 .btn:hover {
-    color: green;
         transition: transform .3s; 
         transform: scale(1.05);
         font-size: 500;
@@ -42,9 +42,21 @@ button, .btn {
 }
 
 .high-col .btn:hover {
-
-    border: 4px solid green !important;
+    background-color: #023059;
 }
+
+.high-1 .btn:hover {
+    color: #F8B195;
+  }
+
+  .high-2 .btn:hover  {
+    color: #E69597;
+  }
+
+  .high-3 .btn:hover  {
+    color: #FF7477;
+  }
+
 
 .light-blue {
     color: #a3dae3;
