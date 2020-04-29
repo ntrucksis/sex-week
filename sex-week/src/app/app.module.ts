@@ -8,9 +8,9 @@ import { EventsComponent } from './events/events.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
-import { SpotifyComponent } from './spotify/spotify.component';
 import { StreamsComponent } from './streams/streams.component';
 import { AboutComponent } from './about/about.component';
+import { SpotifySocialComponent } from './spotify-social/spotify-social.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +19,10 @@ import { AboutComponent } from './about/about.component';
     NavbarComponent,
     BannerComponent,
     FooterComponent,
-    SpotifyComponent,
     StreamsComponent,
     AboutComponent,
-    EventsComponent
+    EventsComponent,
+    SpotifySocialComponent
   ],
   imports: [
     BrowserModule,

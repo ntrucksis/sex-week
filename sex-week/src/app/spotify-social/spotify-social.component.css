@@ -1,0 +1,51 @@
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .facebook-icon {
+    padding: 0;
+    border: 0;
+  }
+  
+  .socials img {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .instagram-icon {
+    padding: 0;
+    border: 0;
+  }
+
+  .spotify {
+      margin: auto;
+  }
+
+  .fb-btn {
+      background-color: #3C5A99;
+  }
+
+  .ig-btn {
+      background-color: #F50032;
+}       
+
+.soc-btn {
+    margin: auto;
+    height: 35%;
+    color: white !important;
+    width: 88%;
+    font-size: 1.75em;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    margin: 3rem;
+}
+
+.spotify-socials {
+  background-color: black;
+  padding: 2rem 0;
+}
