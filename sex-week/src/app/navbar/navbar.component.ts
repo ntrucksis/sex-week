@@ -5,12 +5,15 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  styleUrls: ['./navbar.component.css'],
+  providers: [
+    { provide: Window, useValue: window }
+  ]
 })
 export class NavbarComponent implements OnInit {
 
   constructor(
-    @Inject(DOCUMENT) private document: Document,
+    @Inject(Window) private window: Window,
     private router: Router
   ) { }
 
@@ -27,6 +30,16 @@ export class NavbarComponent implements OnInit {
 
   goToStreams(): void {
     this.router.navigate(["/streams"]);
+  }
+
+  goToAbout(): void {
+    let url = this.router.url;
+    if (url.includes('home')) {
+      this.window.document.getElementById('About').scrollIntoView();
+    }
+    else {
+      this.router.navigate(['/home', 'about'])
+    }
   }
 
 

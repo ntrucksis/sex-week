@@ -133,5 +133,32 @@ healing art. She’s known for her masturbation philosophies and
           attend!`,
     id: 8,
     regLink: ''
+  },
+  {
+    title: 'Red Hot Annie from Vaudezilla',
+    subtitle: 'BRLSQ 101-5-Real Life Burlesque with Red Hot Annie',
+    pic: '',
+    desc: `Align with your larger-than-life burlesque potential, by harnessing
+     the power of your imagination.  We’ll tune mind, body, and soul with the
+      freedom of erotic dance to develop comfort in person or on stage (or in
+         front of a camera!). Through a series of drills and activities you
+          will be invited to confidently and fully express the parts of you
+           that are dying to be released! Harness the power of your
+            self-confidence, streamline your intention and develop some
+             personalized techniques for jumping fully into any moment on stage
+             or off. Using choreography as well as spontaneous movement and
+              prompts, we’ll explore the very edges of our personal power –
+               transforming into the Real Life Burlesque Royalty that presides
+                in each of us.`,
+    id: 9,
+    regLink: ''
+  },
+  {
+    title: 'Sky Cubacub',
+    subtitle: '',
+    pic: '',
+    desc: '',
+    id: 10,
+    regLink: ''
   }
 ];

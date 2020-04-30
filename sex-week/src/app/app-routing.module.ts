@@ -7,6 +7,7 @@ import { StreamsComponent } from './streams/streams.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent },
+  {path: 'home/about', component: HomeComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'events', component: EventsComponent},
   {path: 'streams', component: StreamsComponent}
