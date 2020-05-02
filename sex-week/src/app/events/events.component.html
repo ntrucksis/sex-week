@@ -1,15 +1,35 @@
 <app-navbar></app-navbar>
-<div class="events">
-  <div class="event" *ngFor="let event of events">
-      {{event.title}}
-      <br />
-      {{event.subtitle}}
-      <br />
-      {{event.desc}}
-      <br />
-      <button>Enroll Button</button>
-  </div>
-</div>
+<br><br><br><br>
+
+
+<div class="slideshow events d-flex">
+  <div class="event-card d-flex event" *ngFor="let event of events">
+        <div class="white-space">
+          <div class="event-card-title">
+            <h5> {{event.title}} </h5>
+          <p> {{event.subtitle}} </p>
+          </div>
+        </div>
+        <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+  
+        <div class="card-cap">
+          <p>
+            {{event.desc}}
+          </p>
+          <div class="cap-bottom d-flex">
+        <a class="btn event-enroll" href="#">Enroll</a>
+        <p>Wed 2:00PM</p>
+          </div>
+          
+      </div>
+        </div>
+      
+      </div>
+
+
+
+
+
 
 <iframe src="https://open.spotify.com/embed/artist/4Fnp9Z1FbkJW8dTRN2YSdz"
   width="300" height="380" frameborder="0" allowtransparency="true"

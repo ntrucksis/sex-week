@@ -11,6 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { StreamsComponent } from './streams/streams.component';
 import { AboutComponent } from './about/about.component';
 import { SpotifySocialComponent } from './spotify-social/spotify-social.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { SpotifySocialComponent } from './spotify-social/spotify-social.componen
     StreamsComponent,
     AboutComponent,
     EventsComponent,
-    SpotifySocialComponent
+    SpotifySocialComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
