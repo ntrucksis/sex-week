@@ -35,7 +35,7 @@ button, .btn {
 
 
 .btn:hover {
-        transition: transform .3s; 
+        transition: transform .9s; 
         transform: scale(1.05);
         font-size: 500;
       
@@ -45,16 +45,17 @@ button, .btn {
     background-color: #023059;
 }
 
+
 .high-1 .btn:hover {
-    color: #F8B195;
+    color: #F8B195 !important;
   }
 
   .high-2 .btn:hover  {
-    color: #E69597;
+    color: #E69597 !important;
   }
 
   .high-3 .btn:hover  {
-    color: #FF7477;
+    color: #FF7477 !important;
   }
 
 
