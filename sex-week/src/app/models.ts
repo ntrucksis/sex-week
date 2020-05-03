@@ -15,6 +15,10 @@ export interface Bio {
   bio: string;
 }
 
+export const popupData: string = `Check back later this week to register for
+  streams.  Follow us on Facebook and Instagram (linked on our homepage) for
+    the latest updates.`;
+
 export const BIOS: Bio[] = [
   {
     name: "Eliza Gonring",
