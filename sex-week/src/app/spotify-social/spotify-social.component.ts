@@ -25,4 +25,8 @@ export class SpotifySocialComponent implements OnInit {
     this.document.location.href = "https://instagram.com/sexweeknu?igshid=1crtwn4dql9ip";
   }
 
+  goToYoutube(): void {
+    this.document.location.href = "https://www.youtube.com/channel/UCWw0_BhQqCeBCzsAgnpDNRQ";
+  }
+
 }

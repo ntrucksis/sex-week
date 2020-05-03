@@ -3,18 +3,23 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .facebook-icon {
     padding: 0;
     border: 0;
   }
-  
+
   .socials img {
     width: 3rem;
     height: 3rem;
   }
-  
+
   .instagram-icon {
+    padding: 0;
+    border: 0;
+  }
+
+  .youtube-icon {
     padding: 0;
     border: 0;
   }
@@ -29,7 +34,7 @@
 
   .ig-btn {
       background-color: #F50032;
-}       
+}
 
 .soc-btn {
     margin: auto;

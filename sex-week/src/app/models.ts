@@ -7,6 +7,35 @@ export interface Event {
   regLink: string;
 }
 
+export interface Bio {
+  name: string;
+  pic: string;
+  bio: string;
+}
+
+export const BIOS: Bio[] = [
+  {
+    name: "Eliza Gonring",
+    pic: "../assets/images/eliza-pic.jpg",
+    bio: `I’m Eliza. I’m from Newport News, VA but I’m currently living in IL
+     for college. I’m a junior studying Social Policy and African American
+      Studies. I’ve been part of Sex Week since my freshman year but this is my
+       first year serving as co-president. Some of my personal interests
+        include: liberatory education, harm reduction, urban agriculture, and
+         abolition. I spend most of my free time reading, playing Animal
+          Crossing, and suffering under my school workload. `
+  },
+  {
+    name: 'Jiyul',
+    pic: '../assets/images/jiyul-pic.jpg',
+    bio: `I’m Jiyul! I’m from Boston, MA, but I’m currently an undergraduate
+    student at Northwestern University in Evanston, IL. I’m a senior studying
+    psychology, gender & sexuality studies, and English literature. I enjoy
+    bouldering in my free time at my local climbing gym, spending time with my
+     cats, reading feminist books, and painting!`
+  }
+]
+
 export const EVENTS: Event[] = [
   {
     title: 'sex KiKi',
@@ -55,7 +84,7 @@ healing art. She’s known for her masturbation philosophies and
        participate. Please only register to play if you and 3 other people
        are able to make it to the ENTIRE event.`,
     id: 3,
-    regLink: ""
+    regLink: `https://docs.google.com/forms/d/e/1FAIpQLScDnakSs2PKDEEqKdU5HX5Kj-5YkrmjHCDZMdu93jOCiDtjQA/viewform?usp=sf_link`
   },
   {
     title: 'Sex Story Slam',
@@ -65,7 +94,7 @@ healing art. She’s known for her masturbation philosophies and
      story gets voted for best in its category you can win a prize! Sign up to
       share here: `,
     id: 4,
-    regLink: ""
+    regLink: "https://docs.google.com/forms/d/e/1FAIpQLScdWFKnsmcrX8mmnXAv1RgHAknoOo2SmMHxCNqP9HpHw6gehA/viewform?usp=sf_link"
   },
   {
     title: 'Cunty MeMe',
@@ -155,9 +184,16 @@ healing art. She’s known for her masturbation philosophies and
   },
   {
     title: 'Sky Cubacub',
-    subtitle: '',
+    subtitle: 'RDCL_VSBLTY 102-3-Keynote',
     pic: '',
-    desc: '',
+    desc: `Sky Cubacub is the founder and designer for Rebirth Garments. In
+    their own words “Rebirth Garments challenges mainstream beauty standards
+     that are sizest, ableist, and conform to the gender binary. Instead, we
+      maintain the notion of Radical Visibility, a movement based on claiming
+       our bodies and, through the use of bright colors, exuberant fabrics, and
+        innovative designs, highlighting the parts of us that society typically
+         shuns. Through Radical Visibility, we refuse to assimilate and can
+          create a QueerCrip dress reform movement.” Join us for their keynote.`,
     id: 10,
     regLink: ''
   }
