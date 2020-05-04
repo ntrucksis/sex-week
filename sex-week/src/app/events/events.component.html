@@ -7,7 +7,7 @@
         <div class="white-space">
           <div class="event-card-title">
             <h5> {{event.title}} </h5>
-          <p> {{event.subtitle}} </p>
+            <p> {{event.subtitle}} </p>
           </div>
         </div>
         <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
@@ -19,7 +19,9 @@
           <div class="cap-bottom d-flex">
         <a class="btn event-enroll" (click)="openDialog()">Enroll</a>
         <p>{{event.date | date: 'short'}}</p>
+        <a *ngIf="event.signupLink" class="btn event-enroll">Sign Up to Share!</a>
           </div>
+
 
       </div>
         </div>
