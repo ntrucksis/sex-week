@@ -18,15 +18,16 @@ export class SpotifySocialComponent implements OnInit {
   }
 
   goToFacebook(): void {
-    this.document.location.href = "https://facebook.com/northwesternsexweek/";
+    //this.document.location.href = "https://facebook.com/northwesternsexweek/";
+    window.open("https://facebook.com/northwesternsexweek/", "_blank");
   }
 
   goToInstagram(): void {
-    this.document.location.href = "https://instagram.com/sexweeknu?igshid=1crtwn4dql9ip";
+    window.open("https://instagram.com/sexweeknu?igshid=1crtwn4dql9ip", "_blank");
   }
 
   goToYoutube(): void {
-    this.document.location.href = "https://www.youtube.com/channel/UCWw0_BhQqCeBCzsAgnpDNRQ";
+    window.open("https://www.youtube.com/channel/UCWw0_BhQqCeBCzsAgnpDNRQ", "_blank");
   }
 
 }
