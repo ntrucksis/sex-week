@@ -1,6 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { Router } from '@angular/router';
+import { BIOS } from '../models'
 
 @Component({
   selector: 'app-home',
@@ -11,6 +12,10 @@ import { Router } from '@angular/router';
   ]
 })
 export class HomeComponent implements OnInit {
+
+  bios = BIOS;
+  elizaBio = this.bios[0];
+  jiyulBio = this.bios[1];
 
   constructor(
     private router: Router,

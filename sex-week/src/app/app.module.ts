@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
-import { EventsComponent } from './events/events.component';
+import { EventsComponent, PopupComponent } from './events/events.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
@@ -13,6 +13,8 @@ import { AboutComponent } from './about/about.component';
 import { SpotifySocialComponent } from './spotify-social/spotify-social.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -25,13 +27,17 @@ import {MatCardModule} from '@angular/material/card';
     AboutComponent,
     EventsComponent,
     SpotifySocialComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatDialogModule,
+    MatButtonModule
   ],
+  entryComponents: [PopupComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
