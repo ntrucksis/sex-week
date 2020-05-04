@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EVENTS } from '../models';
+import { Event, EVENTS } from '../models';
 
 
 @Component({
@@ -10,6 +10,8 @@ import { EVENTS } from '../models';
 export class StreamsComponent implements OnInit {
 
   events = EVENTS;
+  event: Event;
+  count: number = 0;
 
   constructor() { }
 
@@ -18,8 +20,9 @@ export class StreamsComponent implements OnInit {
   }
 
   getEvent() {
-    const i = 0;
-    let event = this.events[i]
+    let i = this.count;
+    let event = this.events[i];
+    this.event = event;
     var eventDate = new Date(event.date).getTime();
 
     var x = setInterval(function() {
@@ -38,6 +41,7 @@ export class StreamsComponent implements OnInit {
 
       if (distance < 0) {
         clearInterval(x);
+        this.count += 1;
         document.getElementById("demo").innerHTML = "EXPIRED";
       }
 

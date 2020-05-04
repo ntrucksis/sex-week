@@ -22,7 +22,7 @@ export const popupData: string = `Check back later this week to register for
 
 export const BIOS: Bio[] = [
   {
-    name: "Eliza Gonring",
+    name: "Eliza",
     pic: "../assets/images/eliza-pic.jpg",
     bio: `I’m Eliza. I’m from Newport News, VA but I’m currently living in IL
      for college. I’m a junior studying Social Policy and African American
@@ -47,7 +47,7 @@ export const EVENTS: Event[] = [
   {
     title: 'sex KiKi',
     subtitle: 'MSTRBATION 101-6 – Masturbation for Manifestation',
-    pic: "hello",
+    pic: "../assets/images/kiki-box.PNG",
     desc: `Masturbation is a catalyst for radical self-love.
 Masturbation as a ritual, healing modality, and a self-actualizing practice
 enabling us to take back our power through sex-positive means!
@@ -75,7 +75,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Red Hot Annie from Vaudezilla',
     subtitle: 'BRLSQ 101-5-Real Life Burlesque with Red Hot Annie',
-    pic: '',
+    pic: '../assets/images/annie-box.png',
     desc: `Align with your larger-than-life burlesque potential, by harnessing
      the power of your imagination.  We’ll tune mind, body, and soul with the
       freedom of erotic dance to develop comfort in person or on stage (or in
@@ -112,7 +112,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Sky Cubacub',
     subtitle: 'RDCL_VSBLTY 102-3-Keynote',
-    pic: '',
+    pic: '../assets/images/ws-box.png',
     desc: `Sky Cubacub is the founder and designer for Rebirth Garments. In
     their own words “Rebirth Garments challenges mainstream beauty standards
      that are sizest, ableist, and conform to the gender binary. Instead, we
@@ -195,7 +195,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Cunty MeMe',
     subtitle: 'EROTIC_LIBRTION 101-9 - The Use of the Erotic',
-    pic: 'insert',
+    pic: '../assets/images/cunty-box.PNG',
     desc: `This workshop is meant to be an intimate and interactive environment
     where we discuss the role sex plays in our daily lives, relationships as
     well as our culture and society. We will dissect the meaning of the use of

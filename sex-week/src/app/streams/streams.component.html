@@ -1,12 +1,7 @@
 <app-navbar></app-navbar>
-<h1>Current Stream</h1>
 
+<p id="demo"></p>
 
-
-      
-
-      
-      <p id="demo"></p>
-      
-      
-     
+<div class="event" *ngIf="event">
+  <img class="countdown-pic" src={{event.pic}}/>
+</div>
