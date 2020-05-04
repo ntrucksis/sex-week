@@ -7,6 +7,7 @@ export interface Event {
   regLink: string;
   signups: string;
   date: Date;
+  signupLink: string;
 }
 
 export interface Bio {
@@ -14,6 +15,10 @@ export interface Bio {
   pic: string;
   bio: string;
 }
+
+export const popupData: string = `Check back later this week to register for
+  streams.  Follow us on Facebook and Instagram (linked on our homepage) for
+    the latest updates.`;
 
 export const BIOS: Bio[] = [
   {
@@ -64,7 +69,8 @@ healing art. She’s known for her masturbation philosophies and
     id: 1,
     regLink: "",
     signups: '',
-    date: new Date('May 11, 2020 18:30:00')
+    date: new Date('May 11, 2020 18:30:00'),
+    signupLink: ''
   },
   {
     title: 'Red Hot Annie from Vaudezilla',
@@ -85,7 +91,8 @@ healing art. She’s known for her masturbation philosophies and
     id: 2,
     regLink: '',
     signups: '',
-    date: new Date('May 11, 2020 20:30:00')
+    date: new Date('May 11, 2020 20:30:00'),
+    signupLink: ''
   },
   {
     title: 'Sex Workers Outreach Project',
@@ -99,7 +106,8 @@ healing art. She’s known for her masturbation philosophies and
     id: 3,
     regLink: "",
     signups: '',
-    date: new Date('May 12, 2020 18:30:00')
+    date: new Date('May 12, 2020 18:30:00'),
+    signupLink: ''
   },
   {
     title: 'Sky Cubacub',
@@ -116,7 +124,8 @@ healing art. She’s known for her masturbation philosophies and
     id: 4,
     regLink: '',
     signups: '',
-    date: new Date('May 13, 2020 18:00:00')
+    date: new Date('May 13, 2020 18:00:00'),
+    signupLink: ''
   },
   {
     title: 'Ela Przbylo',
@@ -134,7 +143,8 @@ healing art. She’s known for her masturbation philosophies and
     id: 5,
     regLink: '',
     signups: '',
-    date: new Date('May 13, 2020 20:00:00')
+    date: new Date('May 13, 2020 20:00:00'),
+    signupLink: ''
   },
   {
     title: 'Rainbow Alliance ft Veronica Scorpio and Tommie Foolerie',
@@ -146,7 +156,8 @@ healing art. She’s known for her masturbation philosophies and
     id: 6,
     regLink: '',
     signups: '',
-    date: new Date('May 14, 2020 15:30:00')
+    date: new Date('May 14, 2020 15:30:00'),
+    signupLink: ''
   },
   {
     title: 'Family Feud',
@@ -160,7 +171,8 @@ healing art. She’s known for her masturbation philosophies and
     id: 7,
     regLink: `https://docs.google.com/forms/d/e/1FAIpQLScDnakSs2PKDEEqKdU5HX5Kj-5YkrmjHCDZMdu93jOCiDtjQA/viewform?usp=sf_link`,
     signups: 'Sign up to Play',
-    date: new Date('May 14, 2020 18:00:00')
+    date: new Date('May 14, 2020 18:00:00'),
+    signupLink: ''
   },
   {
     title: 'Ying’s Nudes Skillshare',
@@ -177,7 +189,8 @@ healing art. She’s known for her masturbation philosophies and
     id: 8,
     regLink: '',
     signups: '',
-    date: new Date('May 14, 2020 20:30:00')
+    date: new Date('May 14, 2020 20:30:00'),
+    signupLink: ''
   },
   {
     title: 'Cunty MeMe',
@@ -196,7 +209,8 @@ healing art. She’s known for her masturbation philosophies and
     id: 9,
     regLink: "",
     signups: '',
-    date: new Date('May 15, 2020 16:00:00')
+    date: new Date('May 15, 2020 16:00:00'),
+    signupLink: ''
   },
   {
     title: 'Sex Story Slam',
@@ -208,7 +222,8 @@ healing art. She’s known for her masturbation philosophies and
     id: 10,
     regLink: "https://docs.google.com/forms/d/e/1FAIpQLScdWFKnsmcrX8mmnXAv1RgHAknoOo2SmMHxCNqP9HpHw6gehA/viewform?usp=sf_link",
     signups: 'Sign up to Share',
-    date: new Date('May 15, 2020 18:00:00')
+    date: new Date('May 15, 2020 18:00:00'),
+    signupLink: ''
   },
   {
     title: 'Cunty MeMe',
@@ -219,6 +234,7 @@ healing art. She’s known for her masturbation philosophies and
     id: 11,
     regLink: "",
     signups: '',
-    date: new Date('May 15, 2020 20:30:00')
+    date: new Date('May 15, 2020 20:30:00'),
+    signupLink: ''
   },
 ];
