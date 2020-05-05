@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, ViewChild, ElementRef } from '@angular/core';
 import { Event, EVENTS, popupData } from '../models';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
 
@@ -17,7 +17,20 @@ export class EventsComponent implements OnInit {
 
   events = EVENTS;
 
-  constructor(public dialog: MatDialog) { }
+  constructor(public dialog: MatDialog,
+              public elementRef: ElementRef
+  ) { }
+
+  @ViewChild('widgetsContent', {static: false}) widgetsContent: ElementRef;
+
+  scrollRight() {
+    this.widgetsContent.nativeElement.scrollLeft += 1430;
+  }
+
+  scrollLeft() {
+    this.widgetsContent.nativeElement.scrollLeft -= 1430;
+  }
+
 
   ngOnInit() {
     this.openDialog();
@@ -25,7 +38,7 @@ export class EventsComponent implements OnInit {
 
   openDialog(): void {
     const dialogRef = this.dialog.open(PopupComponent, {
-      width: '250px',
+      width: '300px',
       data: {text: this.popupTxt}
     })
   }

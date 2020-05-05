@@ -3,22 +3,21 @@
   margin-bottom: 20px;
 }
 
-.events {
-  margin-top: 60px;
-}
-
 body {
   margin-top: 50px;
 }
 
 
+div.events.d-flex {
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
 
-
-
-
-
-
-
+.scroll-button {
+  position: absolute;
+  right: 0;
+}
 
 
 
@@ -53,20 +52,19 @@ body {
 }
 
 
-
-
 .event-card{
 
-  background-color: #aaa;
-  width: 40vw;
+  background-color: #a3dae3;
+  width: 50vw;
   flex-direction: column;
+  margin: 0;
 
    /** TAKEN FROM ANGULAR MATCARD **/
    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),
    0 1px 1px 0 rgba(0,0,0,.14),
    0 1px 3px 0 rgba(0,0,0,.12);
 
-   color: green;
+   color: #023059;
 
 /** END TAKEN FROM ANGULAR MATCARD **/
 
