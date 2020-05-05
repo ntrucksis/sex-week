@@ -74,8 +74,8 @@
     flex-direction: column;
     padding: 4em 2em;
     justify-content: space-around;
-    transition: transform .3s; 
-    
+    transition: transform .3s;
+
   }
 
   .high-col:hover {
@@ -112,7 +112,9 @@
     padding-bottom: 2em;
   }
 
-
+  #bioPic {
+    height: 400px;
+  }
 
 
   @media screen and (min-width: 300px) {
@@ -120,4 +122,8 @@
       flex: 0 0 33.333333%;
       max-width: 33.333333%;
     }
+  }
+
+  app-footer {
+    border: 0;
   }

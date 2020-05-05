@@ -47,7 +47,7 @@ export const EVENTS: Event[] = [
   {
     title: 'sex KiKi',
     subtitle: 'MSTRBATION 101-6 – Masturbation for Manifestation',
-    pic: "../assets/images/kiki-box.PNG",
+    pic: "../assets/images/sex-kiki-box.png",
     desc: `Masturbation is a catalyst for radical self-love.
 Masturbation as a ritual, healing modality, and a self-actualizing practice
 enabling us to take back our power through sex-positive means!
@@ -75,7 +75,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Red Hot Annie from Vaudezilla',
     subtitle: 'BRLSQ 101-5-Real Life Burlesque with Red Hot Annie',
-    pic: '../assets/images/annie-box.png',
+    pic: '../assets/images/red-annie-box.png',
     desc: `Align with your larger-than-life burlesque potential, by harnessing
      the power of your imagination.  We’ll tune mind, body, and soul with the
       freedom of erotic dance to develop comfort in person or on stage (or in
@@ -97,7 +97,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Sex Workers Outreach Project',
     subtitle: 'SEX_WRK 101-4 – Intro to Sex Work & Allyship',
-    pic: 'insert',
+    pic: '../assets/images/swop-box.png',
     desc: `Liz Velek is an MPH and a Certified Sexual Health Education
     specialist.  She’s a board member of SWOP Chicago and a community ally. In
     this workshop she examines and deconstructs our notions of sexuality, labor,
@@ -112,7 +112,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Sky Cubacub',
     subtitle: 'RDCL_VSBLTY 102-3-Keynote',
-    pic: '../assets/images/ws-box.png',
+    pic: '../assets/images/sky-cubacub-box.png',
     desc: `Sky Cubacub is the founder and designer for Rebirth Garments. In
     their own words “Rebirth Garments challenges mainstream beauty standards
      that are sizest, ableist, and conform to the gender binary. Instead, we
@@ -131,7 +131,7 @@ healing art. She’s known for her masturbation philosophies and
     title: 'Ela Przbylo',
     subtitle: `SEXLTY 101-3-Asexuality and Aromanticism 101: Building an Erotic
     Toolkit`,
-    pic: '',
+    pic: 'Ela-box.png',
     desc: `Ela is Assistant Professor in the Department of English and core
      faculty in the Women’s and Gender Studies Program at Illinois State
       University. This workshop with cover basic ace & aro terminology and help
@@ -149,7 +149,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Rainbow Alliance ft Veronica Scorpio and Tommie Foolerie',
     subtitle: 'DRG_MKE_UP 102-9- Drag Makeup Tutorials And Q&A',
-    pic: '',
+    pic: 'drag-box.png',
     desc: `Join the Veronica Scoripo and Tommie Foolerie of Rainbow Alliance
     with a drag tutorial!! They’ll each be doing some looks for us and
      answering questions reverse bingo style. `,
@@ -162,7 +162,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Family Feud',
     subtitle: 'FMLY_FEUD 101-2 - Sex Week Feud',
-    pic: 'insert',
+    pic: '../assets/images/logo.png',
     desc: `A classic game of Family Feud with a twist. We’ve polled 100
      Northwestern student’s and now’s your chance for you and your friends to
       win some prizes!! Find 4 people to register for a team and apply to
@@ -177,7 +177,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Ying’s Nudes Skillshare',
     subtitle: 'NOODZ_THRY 101-7',
-    pic: '',
+    pic: 'ying-box.png',
     desc: `Join Ying, resident photographer and general baddie, in learning to
      appreciate ALLLL aspects and ALLLL angles of your body! Enhance your nude
       taking capabilities and dazzle yourself and any potential recipients.
@@ -195,7 +195,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Cunty MeMe',
     subtitle: 'EROTIC_LIBRTION 101-9 - The Use of the Erotic',
-    pic: '../assets/images/cunty-box.PNG',
+    pic: '../assets/images/cunty-meme.png',
     desc: `This workshop is meant to be an intimate and interactive environment
     where we discuss the role sex plays in our daily lives, relationships as
     well as our culture and society. We will dissect the meaning of the use of
@@ -215,7 +215,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Sex Story Slam',
     subtitle: 'SEX_STRY 104-5 – Sex Story Slam',
-    pic: 'insert',
+    pic: '../assets/images/logo.png',
     desc: `Come share your funniest, raunchiest, grossest sex stories!! If your
      story gets voted for best in its category you can win a prize! You’ll be able to share without signing up but priority will
        be given to those folks first. `,
@@ -228,7 +228,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Cunty MeMe',
     subtitle: 'PERF_ST 101-8 – A Concert featuring Cunty MeMe',
-    pic: 'insert',
+    pic: '../assets/images/cunty-meme.png',
     desc: `Join us for a night of fun and enjoy the cooooool tunes of Cunty
     MeMe! You can find their music here:`,
     id: 11,

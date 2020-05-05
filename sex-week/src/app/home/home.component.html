@@ -2,7 +2,7 @@
 <app-banner></app-banner>
 <div class="home-wrapper">
 
-  
+
 
         <!-- Marketing messaging and featurettes
       ================================================== -->
@@ -48,13 +48,18 @@
 
         <hr class="featurette-divider">
 
+        <app-spotify-social></app-spotify-social>
+
+        <hr class="featurette-divider">
+
+
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">{{elizaBio.name}}<span class="text-muted">Title</span></h2>
+            <h2 class="featurette-heading">{{elizaBio.name}}</h2>
             <p class="lead">{{elizaBio.bio}}</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src={{elizaBio.pic}}>
+            <img class="featurette-image img-fluid mx-auto" id="bioPic" src={{elizaBio.pic}}>
           </div>
         </div>
 
@@ -62,32 +67,22 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">{{jiyulBio.name}}<span class="text-muted">Title.</span></h2>
+            <h2 class="featurette-heading">{{jiyulBio.name}}</h2>
             <p class="lead">{{jiyulBio.bio}}</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src={{jiyulBio.pic}}>
+            <img class="featurette-image img-fluid mx-auto" id="bioPic" src={{jiyulBio.pic}}>
           </div>
         </div>
 
+        <hr class="featurette-divider">
 
 
 
         <!-- /END THE FEATURETTES -->
 
 
-
       </div><!-- /.container -->
 
-
-
-
-
-
-
-
-
-
 </div>
-<app-spotify-social></app-spotify-social>
 <app-footer></app-footer>
