@@ -7,9 +7,6 @@ body {
   margin-top: 50px;
 }
 
-div.event-card {
-  width: 49vw;
-}
 
 div.events.d-flex {
   display: flex;
@@ -17,10 +14,10 @@ div.events.d-flex {
   scroll-behavior: smooth;
 }
 
-
-
-
-
+.scroll-button {
+  position: absolute;
+  right: 0;
+}
 
 
 
@@ -60,8 +57,9 @@ div.events.d-flex {
 .event-card{
 
   background-color: #aaa;
-  width: 40vw;
+  width: 50vw;
   flex-direction: column;
+  margin: 0;
 
    /** TAKEN FROM ANGULAR MATCARD **/
    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),
