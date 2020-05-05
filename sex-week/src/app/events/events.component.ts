@@ -27,12 +27,12 @@ export class EventsComponent implements OnInit {
   @ViewChild('widgetsContent', {static: false}) widgetsContent: ElementRef;
 
   scrollRight() {
-    this.widgetsContent.nativeElement.scrollLeft += 1375;
+    this.widgetsContent.nativeElement.scrollLeft += 1285;
     this.scrollFlag = true;
   }
 
   scrollLeft() {
-    this.widgetsContent.nativeElement.scrollLeft -= 1430;
+    this.widgetsContent.nativeElement.scrollLeft -= 1285;
   }
 
 
