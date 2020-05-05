@@ -153,8 +153,16 @@ font-size: 1.5rem;
   height: 13vw;
   margin: auto;
   overflow-y: auto;
+  font-family: 'Roboto Slab', serif;
 }
 
+a.btn.event-enroll {
+  margin-bottom: 150px;
+}
+
+p.date {
+  margin-bottom: 30px;
+}
 
 .left-scroll {
   position: absolute;
