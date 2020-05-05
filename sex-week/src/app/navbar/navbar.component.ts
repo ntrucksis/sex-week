@@ -55,6 +55,7 @@ export class NavbarComponent implements OnInit {
       var elementNav = document.getElementById("Nav");
       if ((window.pageYOffset >= 60)) {
           console.log("scrolling")
+          
           elementNav.classList.add("transparent");
       } else {
           console.log("Top")

@@ -2,33 +2,36 @@
 <br><br>
 
 
-<div #widgetsContent class="events d-flex">
+<div #widgetsContent class="container events d-flex">
   <div class="event-card d-flex event" *ngFor="let event of events">
-        <div class="event-card-title">
-          <h5> {{event.title}} </h5>
-          <p> {{event.subtitle}} </p>
-        </div>
-        <img src={{event.pic}}>
+    <div class="event-card-title">
+      <h5> {{event.title}} </h5>
+      <p> {{event.subtitle}} </p>
+    </div>
+    <img src={{event.pic}}>
 
-        <div class="card-cap">
-          <p>
-            {{event.desc}}
-          </p>
-          <div class="cap-bottom d-flex">
+    <div [ngStyle]="cusp" class="card-cap">
+      <p class="cap-text">
+        {{event.desc}}
+      </p>
+      <div class="cap-bottom d-flex">
         <a class="btn event-enroll" (click)="openDialog()">Enroll</a>
         <p>{{event.date | date: 'short'}}</p>
-        <a *ngIf="event.signupLink" href={{event.signupLink}} target="_blank" class="btn event-enroll">{{event.signups}}</a>
+        <a *ngIf="event.signupLink" href={{event.signupLink}} target="_blank"
+          class="btn event-enroll">{{event.signups}}</a>
         <a *ngIf="event.spotify" href={{event.spotify}} target="_blank" class="btn event-enroll">Spotify</a>
         <a *ngIf="event.soundcloud" href={{event.soundcloud}} target="_blank" class="btn event-enroll">Soundcloud</a>
-          </div>
       </div>
     </div>
   </div>
-
-<div class="scroll-button">
-  <button mat-button (click)="scrollRight()"><span class="material-icons">keyboard_arrow_right</span></button>
 </div>
 
-<div style="float: left">
-  <button mat-button (click)="scrollLeft()"><span class="material-icons">keyboard_arrow_left</span></button>
-</div>
+
+<div></div>
+
+
+  <div class="scroll-buttons">
+    <button mat-button (click)="scrollLeft()"><span class="material-icons">keyboard_arrow_left</span></button>
+    <button mat-button (click)="scrollRight()"><span class="material-icons">keyboard_arrow_right</span></button>
+  </div>
+  

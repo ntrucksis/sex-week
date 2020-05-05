@@ -22,6 +22,7 @@
   .youtube-icon {
     padding: 0;
     border: 0;
+
   }
 
   .spotify {
@@ -33,7 +34,11 @@
   }
 
   .ig-btn {
-      background-color: #F50032;
+      background-image: linear-gradient(red, purple);
+}
+
+.yt-btn {
+  background-color: red;
 }
 
 .soc-btn {

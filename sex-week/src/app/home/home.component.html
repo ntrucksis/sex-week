@@ -4,86 +4,82 @@
 
 
 
-        <!-- Marketing messaging and featurettes
+  <!-- Marketing messaging and featurettes
       ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-      <div class="container highlights">
-                <!-- Three columns of text below the carousel -->
-                <div class="row">
-                  <div class="col-lg-4 high-1 high-col">
-                    <i class="far fa-calendar-alt"></i>
-                    <br><br>
-                    <p><a class="btn high-btn" target="_blank" (click)="goToEvents()" role="button">Events &raquo;</a></p>
-                  </div><!-- /.col-lg-4 -->
-                  <div class="col-lg-4 high-2 high-col">
-                    <i class="fas fa-video"></i>
-                    <br><br>
-                    <p><a class="btn high-btn"  target="_blank"(click)="goToStream()" role="button">Stream &raquo;</a></p>
-                  </div><!-- /.col-lg-4 -->
-                  <div class="col-lg-4 high-3 high-col">
-                    <i class="fas fa-gifts"></i>
-                    <br><br>
-                    <p><a class="btn high-btn" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfrf5nqt5CS6OYSfrNEObuRbwnC0acwQ6aLd4poxDQp4pORwg/viewform?usp=sf_link" role="button">Win a free Sex Toy (NU only!) &raquo;</a></p>
-                  </div><!-- /.col-lg-4 -->
-                </div><!-- /.row -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+  <div class="highlights">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4 high-1 high-col">
+        <i class="far fa-calendar-alt"></i>
+        <br><br>
+        <p><a class="btn high-btn" target="_blank" (click)="goToEvents()" role="button">Events &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 high-2 high-col">
+        <i class="fas fa-video"></i>
+        <br><br>
+        <p><a class="btn high-btn" target="_blank" (click)="goToStream()" role="button">Stream &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 high-3 high-col">
+        <i class="fas fa-gifts"></i>
+        <br><br>
+        <p><a class="btn high-btn" target="_blank"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfrf5nqt5CS6OYSfrNEObuRbwnC0acwQ6aLd4poxDQp4pORwg/viewform?usp=sf_link"
+            role="button">Win a free Sex Toy (NU only!) &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
 
+  </div>
+
+  <div class="home-section">
+    <div class="container">
+      <!-- START THE FEATURETTES -->
+      <div id="About" class="row featurette">
+        <div class="col-md-7">
+          <h2>Sex Week. <span class="text-muted">It'll blow your mind.</span></h2>
+          <br />
+          <p class="lead">Sex Week is a series of events put on by NU College Feminists over the course of a week that
+            are
+            designed to increase awareness of issues related to sexuality and sexual health. Sex Weeks exist at
+            college’s
+            across the nation; our’s was founded in 2007. For this year’s Sex Week we made a special effort to highlight
+            those with non normative sex lives. We’ve taken special efforts to have many of our speakers be members of
+            the
+            queer or qtpoc community. We hope you have fun and learn a lot!! This year our co-presidents are Eliza and
+            Jiyul.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="./assets/images/logo.png"
+            alt="Generic placeholder image">
+        </div>
       </div>
-
-      <div class="container marketing">
-
+    </div>
 
 
+  </div>
 
-        <!-- START THE FEATURETTES -->
+  <app-spotify-social></app-spotify-social>
 
-        <div id="About"class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Sex Week. <span class="text-muted">It'll blow your mind.</span></h2>
-            <br />
-            <p class="lead">Sex Week is a series of events put on by NU College Feminists over the course of a week that are designed to increase awareness of issues related to sexuality and sexual health. Sex Weeks exist at college’s across the nation; our’s was founded in 2007. For this year’s Sex Week we made a special effort to highlight those with non normative sex lives. We’ve taken special efforts to have many of our speakers be members of the queer or qtpoc community. We hope you have fun and learn a lot!! This year our co-presidents are Eliza and Jiyul.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="./assets/images/logo.png" alt="Generic placeholder image">
-          </div>
+
+  <div id="Organizers" class="home-section">
+    <div class="container">
+      <div class="row bio-row eliza">
+        <div style="padding-right: 1rem;">
+        <h2>{{elizaBio.name}}</h2>
+        <p class="lead">{{elizaBio.bio}}</p>
         </div>
-
-        <hr class="featurette-divider">
-
-        <app-spotify-social></app-spotify-social>
-
-        <hr class="featurette-divider">
-
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">{{elizaBio.name}}</h2>
-            <p class="lead">{{elizaBio.bio}}</p>
+        <img class="featurette-image img-fluid mx-auto" id="bioPic" src={{elizaBio.pic}} style="padding-left: 1rem;">
+      </div>
+      <div class="row bio-row jiyul">
+        <img class="featurette-image img-fluid mx-auto" id="bioPic" src={{jiyulBio.pic}} style="padding-right: 1rem;">
+          <div style="padding-left: 1rem; text-align: right;">
+          <h2>{{jiyulBio.name}}</h2>
+          <p class="lead">{{jiyulBio.bio}}</p>
           </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" id="bioPic" src={{elizaBio.pic}}>
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">{{jiyulBio.name}}</h2>
-            <p class="lead">{{jiyulBio.bio}}</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" id="bioPic" src={{jiyulBio.pic}}>
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-
-
-        <!-- /END THE FEATURETTES -->
-
-
-      </div><!-- /.container -->
+      </div>
+    </div>
+    <!-- /END THE FEATURETTES -->
+  </div><!-- /.container -->
 
 </div>
 <app-footer></app-footer>
