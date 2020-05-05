@@ -8,17 +8,21 @@ body {
 }
 
 
-div.events.d-flex {
-  display: flex;
+.events {
   overflow: hidden;
   scroll-behavior: smooth;
+  max-width: 95%;
 }
 
-.scroll-button {
-  position: absolute;
-  right: 0;
-}
 
+.scroll-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: -10vw;
+  height: 0;
+}
 
 
 
@@ -55,8 +59,11 @@ div.events.d-flex {
 .event-card{
 
   background-color: #a3dae3;
-  width: 50vw;
+  width: 47.5vw;
+  transition: .5s ease;
   flex-direction: column;
+  position: relative;
+  transition: .5s ease;
   margin: 0;
 
    /** TAKEN FROM ANGULAR MATCARD **/
@@ -69,11 +76,39 @@ div.events.d-flex {
 /** END TAKEN FROM ANGULAR MATCARD **/
 
 line-height: normal;
+height: fit-content;
+}
+
+.event-card:hover .card-cap{
+  display: flex;
+  opacity: 1;
+  transition: .5s ease;
+  
+}
+
+.event-card:hover .event-card-title, .event-card:hover img {
+  opacity: 0.3;
 }
 
 .event-card img {
   width: inherit;
 }
+
+.card-cap {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: .5s ease;
+  flex-direction: column;
+  width: inherit;
+  align-items: center;
+  background: #2229;
+  color: white;
+  text-shadow: 0px 0.5px 0.5px black;
+}
+
+
 
 
 
@@ -85,12 +120,21 @@ margin-bottom: 0;
 }
 
 .cap-bottom {
-flex-direction: row;
+  
+flex-direction: column;
 justify-content: space-between;
 align-items: center;
 
 }
 
-.cap-bottom h4 {
+.cap-bottom p {
 margin-bottom: 0;
+font-size: 1.5rem;
+}
+
+
+.cap-text {
+  height: 13vw;
+  margin: auto;
+  overflow-y: auto;
 }

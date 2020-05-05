@@ -1,4 +1,5 @@
 import { Component, OnInit, Inject, ViewChild, ElementRef } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 import { Event, EVENTS, popupData } from '../models';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
 
@@ -12,6 +13,8 @@ export interface DialogData {
   styleUrls: ['./events.component.css']
 })
 export class EventsComponent implements OnInit {
+
+  
 
   popupTxt = popupData;
 
@@ -34,6 +37,7 @@ export class EventsComponent implements OnInit {
 
   ngOnInit() {
     this.openDialog();
+  
   }
 
   openDialog(): void {
@@ -41,6 +45,8 @@ export class EventsComponent implements OnInit {
       width: '300px',
       data: {text: this.popupTxt}
     })
+
+    
   }
 
 }
@@ -60,3 +66,7 @@ export class PopupComponent {
       this.dialogRef.close();
     }
 }
+
+
+
+
