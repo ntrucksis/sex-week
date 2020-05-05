@@ -14,7 +14,8 @@ export interface DialogData {
 })
 export class EventsComponent implements OnInit {
 
-  scrollFlag = false;
+  leftScrollFlag = false;
+  rightScrollFlag = true;
 
   popupTxt = popupData;
 
@@ -27,18 +28,25 @@ export class EventsComponent implements OnInit {
   @ViewChild('widgetsContent', {static: false}) widgetsContent: ElementRef;
 
   scrollRight() {
-    this.widgetsContent.nativeElement.scrollLeft += 1285;
-    this.scrollFlag = true;
+    this.leftScrollFlag = true;
+    this.widgetsContent.nativeElement.scrollLeft += 500;
+    if (this.widgetsContent.nativeElement.scrollLeft >= 5200) {
+      this.rightScrollFlag = false;
+    }
   }
 
   scrollLeft() {
-    this.widgetsContent.nativeElement.scrollLeft -= 1285;
+    if (this.widgetsContent.nativeElement.scrollLeft >= 5400) {
+      this.rightScrollFlag = true;
+    }
+    this.widgetsContent.nativeElement.scrollLeft -= 500;
+    if (this.widgetsContent.nativeElement.scrollLeft <= 500) {
+      this.leftScrollFlag = false;
+    }
   }
-
 
   ngOnInit() {
     this.openDialog();
-
   }
 
   openDialog(): void {
@@ -46,8 +54,6 @@ export class EventsComponent implements OnInit {
       width: '300px',
       data: {text: this.popupTxt}
     })
-
-
   }
 
 }
