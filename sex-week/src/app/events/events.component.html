@@ -2,7 +2,7 @@
 <br><br>
 
 
-<div class="events d-flex">
+<div #widgetsContent class="events d-flex">
   <div class="event-card d-flex event" *ngFor="let event of events">
         <div class="event-card-title">
           <h5> {{event.title}} </h5>
@@ -22,6 +22,15 @@
       </div>
     </div>
   </div>
+
+<div style="float: right">
+  <button mat-button (click)="scrollRight()"><span class="material-icons">keyboard_arrow_right</span></button>
+</div>
+
+<div style="float: left">
+  <button mat-button (click)="scrollLeft()"><span class="material-icons">keyboard_arrow_left</span></button>
+</div>
+
 
 <iframe src="https://open.spotify.com/embed/artist/4Fnp9Z1FbkJW8dTRN2YSdz"
   width="300" height="380" frameborder="0" allowtransparency="true"

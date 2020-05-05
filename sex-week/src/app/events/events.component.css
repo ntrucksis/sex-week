@@ -11,7 +11,11 @@ div.event-card {
   width: 49vw;
 }
 
-
+div.events.d-flex {
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
 
 
 
