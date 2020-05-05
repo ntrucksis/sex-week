@@ -18,6 +18,8 @@
         <a class="btn event-enroll" (click)="openDialog()">Enroll</a>
         <p>{{event.date | date: 'short'}}</p>
         <a *ngIf="event.signupLink" href={{event.signupLink}} target="_blank" class="btn event-enroll">{{event.signups}}</a>
+        <a *ngIf="event.spotify" href={{event.spotify}} target="_blank" class="btn event-enroll">Spotify</a>
+        <a *ngIf="event.soundcloud" href={{event.soundcloud}} target="_blank" class="btn event-enroll">Soundcloud</a>
           </div>
       </div>
     </div>
@@ -30,13 +32,3 @@
 <div style="float: left">
   <button mat-button (click)="scrollLeft()"><span class="material-icons">keyboard_arrow_left</span></button>
 </div>
-
-
-<iframe src="https://open.spotify.com/embed/artist/4Fnp9Z1FbkJW8dTRN2YSdz"
-  width="300" height="380" frameborder="0" allowtransparency="true"
-  allow="encrypted-media"></iframe>
-
- <iframe width="50%" height="300" scrolling="no" frameborder="no"
-   allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/28095907&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/cuntymeme"
-   title="Cunty MeMe" target="_blank"
-   style="color: #cccccc; text-decoration: none;">Cunty MeMe</a></div>
