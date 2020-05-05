@@ -127,3 +127,7 @@
   app-footer {
     border: 0;
   }
+
+  p .lead {
+    margin-right: 100px;
+  }

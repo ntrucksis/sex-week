@@ -38,7 +38,7 @@ export class EventsComponent implements OnInit {
 
   openDialog(): void {
     const dialogRef = this.dialog.open(PopupComponent, {
-      width: '250px',
+      width: '300px',
       data: {text: this.popupTxt}
     })
   }

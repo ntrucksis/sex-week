@@ -52,11 +52,9 @@ div.events.d-flex {
 }
 
 
-
-
 .event-card{
 
-  background-color: #aaa;
+  background-color: #a3dae3;
   width: 50vw;
   flex-direction: column;
   margin: 0;
@@ -66,7 +64,7 @@ div.events.d-flex {
    0 1px 1px 0 rgba(0,0,0,.14),
    0 1px 3px 0 rgba(0,0,0,.12);
 
-   color: green;
+   color: #023059;
 
 /** END TAKEN FROM ANGULAR MATCARD **/
 
