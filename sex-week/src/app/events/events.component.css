@@ -40,15 +40,15 @@ body {
 }
 
 .slideshow > div {
-  
+
   transform: translate3d(0, 0, 0);
   animation: moveSlideshow 12s linear infinite;
 }
 
 
 @keyframes moveSlideshow {
-  100% { 
-    transform: translateX(-66.6666%);  
+  100% {
+    transform: translateX(-66.6666%);
   }
 }
 
@@ -56,16 +56,16 @@ body {
 
 
 .event-card{
-  
+
   background-color: #aaa;
   width: 40vw;
   flex-direction: column;
 
    /** TAKEN FROM ANGULAR MATCARD **/
-   box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 
-   0 1px 1px 0 rgba(0,0,0,.14), 
+   box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),
+   0 1px 1px 0 rgba(0,0,0,.14),
    0 1px 3px 0 rgba(0,0,0,.12);
-   
+
    color: green;
 
 /** END TAKEN FROM ANGULAR MATCARD **/

@@ -2,4 +2,13 @@ p {
       text-align: center;
       font-size: 60px;
       margin-top: 90px;
-    }
+}
+
+.countdown-pic {
+  width: 400px;
+  height: 400px;
+}
+
+.event {
+  text-align: center;
+}
