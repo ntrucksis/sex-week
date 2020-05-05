@@ -2,6 +2,7 @@
 <br><br>
 
 <div class="events-wrapper" >
+  <button class="left-scroll" mat-button (click)="scrollLeft()"><span class="material-icons">keyboard_arrow_left</span></button>
   <div #widgetsContent class="container events d-flex">
     <div class="event-card d-flex event" *ngFor="let event of events">
       <div class="event-card-title">
@@ -25,9 +26,6 @@
       </div>
     </div>
   </div>
-  <div class="scroll-buttons">
-    <button mat-button (click)="scrollLeft()"><span class="material-icons">keyboard_arrow_left</span></button>
-    <button mat-button (click)="scrollRight()"><span class="material-icons">keyboard_arrow_right</span></button>
-  </div>
+  <button class="right-scroll" mat-button (click)="scrollRight()"><span class="material-icons">keyboard_arrow_right</span></button>
 
 </div>

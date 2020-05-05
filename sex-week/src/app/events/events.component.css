@@ -31,7 +31,7 @@ text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -153,4 +153,19 @@ font-size: 1.5rem;
   height: 13vw;
   margin: auto;
   overflow-y: auto;
+}
+
+
+.left-scroll {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.right-scroll {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
