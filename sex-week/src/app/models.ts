@@ -176,7 +176,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Family Feud',
     subtitle: 'FMLY_FEUD 101-2 - Sex Week Feud',
-    pic: '../assets/images/logo.png',
+    pic: '../assets/images/logo-wide.png',
     desc: `A classic game of Family Feud with a twist. We’ve polled 100
      Northwestern student’s and now’s your chance for you and your friends to
       win some prizes!! Find 4 people to register for a team and apply to
@@ -235,7 +235,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Sex Story Slam',
     subtitle: 'SEX_STRY 104-5 – Sex Story Slam',
-    pic: '../assets/images/logo.png',
+    pic: '../assets/images/logo-wide.png',
     desc: `Come share your funniest, raunchiest, grossest sex stories!! If your
      story gets voted for best in its category you can win a prize! You’ll be able to share without signing up but priority will
        be given to those folks first. `,

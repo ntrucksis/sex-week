@@ -7,7 +7,6 @@ body {
   margin-top: 50px;
 }
 
-
 .events {
   overflow: hidden;
   scroll-behavior: smooth;
@@ -20,12 +19,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  top: -10vw;
+  top: -20vw;
   height: 0;
 }
-
-
-
 
 .example-card {
   max-width: 400px;
@@ -83,7 +79,7 @@ height: fit-content;
   display: flex;
   opacity: 1;
   transition: .5s ease;
-  
+
 }
 
 .event-card:hover .event-card-title, .event-card:hover img {
@@ -120,7 +116,7 @@ margin-bottom: 0;
 }
 
 .cap-bottom {
-  
+
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
