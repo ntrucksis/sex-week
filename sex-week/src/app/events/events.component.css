@@ -3,6 +3,11 @@
   margin-bottom: 20px;
 }
 
+
+app-navbar {
+  background-color: black;
+}
+
 body {
   margin-top: 50px;
 }
@@ -10,7 +15,15 @@ body {
 .events {
   overflow: hidden;
   scroll-behavior: smooth;
-  max-width: 95%;
+  max-width: 90%;
+  position: absolute;
+    top: 51px;
+    bottom: 0;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
 }
 
 
@@ -18,9 +31,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: relative;
-  top: -20vw;
-  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .example-card {
@@ -51,11 +66,15 @@ body {
   }
 }
 
+.events-wrapper {
+  background-color: black;
+}
 
 .event-card{
 
+
   background-color: #a3dae3;
-  width: 47.5vw;
+  width: 44.5vw;
   transition: .5s ease;
   flex-direction: column;
   position: relative;
@@ -87,7 +106,8 @@ height: fit-content;
 }
 
 .event-card img {
-  width: inherit;
+  height: 47vw;
+  width: auto;
 }
 
 .card-cap {
