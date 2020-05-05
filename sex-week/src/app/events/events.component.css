@@ -3,15 +3,13 @@
   margin-bottom: 20px;
 }
 
-.events {
-  margin-top: 60px;
-}
-
 body {
   margin-top: 50px;
 }
 
-
+div.event-card {
+  width: 49vw;
+}
 
 
 

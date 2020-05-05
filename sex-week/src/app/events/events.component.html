@@ -1,8 +1,8 @@
 <app-navbar></app-navbar>
-<br><br><br><br>
+<br><br>
 
 
-<div class="slideshow events d-flex">
+<div class="events d-flex">
   <div class="event-card d-flex event" *ngFor="let event of events">
         <div class="event-card-title">
           <h5> {{event.title}} </h5>
@@ -17,16 +17,11 @@
           <div class="cap-bottom d-flex">
         <a class="btn event-enroll" (click)="openDialog()">Enroll</a>
         <p>{{event.date | date: 'short'}}</p>
-        <a *ngIf="event.signupLink" class="btn event-enroll">Sign Up to Share!</a>
+        <a *ngIf="event.signupLink" href={{event.signupLink}} target="_blank" class="btn event-enroll">{{event.signups}}</a>
           </div>
       </div>
     </div>
   </div>
-
-
-
-
-
 
 <iframe src="https://open.spotify.com/embed/artist/4Fnp9Z1FbkJW8dTRN2YSdz"
   width="300" height="380" frameborder="0" allowtransparency="true"

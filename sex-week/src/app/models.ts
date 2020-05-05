@@ -131,7 +131,7 @@ healing art. She’s known for her masturbation philosophies and
     title: 'Ela Przbylo',
     subtitle: `SEXLTY 101-3-Asexuality and Aromanticism 101: Building an Erotic
     Toolkit`,
-    pic: 'Ela-box.png',
+    pic: '../assets/images/Ela-box.png',
     desc: `Ela is Assistant Professor in the Department of English and core
      faculty in the Women’s and Gender Studies Program at Illinois State
       University. This workshop with cover basic ace & aro terminology and help
@@ -149,7 +149,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Rainbow Alliance ft Veronica Scorpio and Tommie Foolerie',
     subtitle: 'DRG_MKE_UP 102-9- Drag Makeup Tutorials And Q&A',
-    pic: 'drag-box.png',
+    pic: '../assets/images/drag-box.png',
     desc: `Join the Veronica Scoripo and Tommie Foolerie of Rainbow Alliance
     with a drag tutorial!! They’ll each be doing some looks for us and
      answering questions reverse bingo style. `,
@@ -169,15 +169,15 @@ healing art. She’s known for her masturbation philosophies and
        participate. Please only register to play if you and 3 other people
        are able to make it to the ENTIRE event.`,
     id: 7,
-    regLink: `https://docs.google.com/forms/d/e/1FAIpQLScDnakSs2PKDEEqKdU5HX5Kj-5YkrmjHCDZMdu93jOCiDtjQA/viewform?usp=sf_link`,
-    signups: 'Sign up to Play',
+    regLink: ``,
+    signups: 'Sign up to Play!',
     date: new Date('May 14, 2020 18:00:00'),
-    signupLink: ''
+    signupLink: 'https://docs.google.com/forms/d/e/1FAIpQLScDnakSs2PKDEEqKdU5HX5Kj-5YkrmjHCDZMdu93jOCiDtjQA/viewform?usp=sf_link'
   },
   {
     title: 'Ying’s Nudes Skillshare',
     subtitle: 'NOODZ_THRY 101-7',
-    pic: 'ying-box.png',
+    pic: '../assets/images/ying-box.png',
     desc: `Join Ying, resident photographer and general baddie, in learning to
      appreciate ALLLL aspects and ALLLL angles of your body! Enhance your nude
       taking capabilities and dazzle yourself and any potential recipients.
@@ -220,10 +220,10 @@ healing art. She’s known for her masturbation philosophies and
      story gets voted for best in its category you can win a prize! You’ll be able to share without signing up but priority will
        be given to those folks first. `,
     id: 10,
-    regLink: "https://docs.google.com/forms/d/e/1FAIpQLScdWFKnsmcrX8mmnXAv1RgHAknoOo2SmMHxCNqP9HpHw6gehA/viewform?usp=sf_link",
-    signups: 'Sign up to Share',
+    regLink: "",
+    signups: 'Sign up to Share!',
     date: new Date('May 15, 2020 18:00:00'),
-    signupLink: ''
+    signupLink: 'https://docs.google.com/forms/d/e/1FAIpQLScdWFKnsmcrX8mmnXAv1RgHAknoOo2SmMHxCNqP9HpHw6gehA/viewform?usp=sf_link'
   },
   {
     title: 'Cunty MeMe',
