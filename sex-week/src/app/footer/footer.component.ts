@@ -12,4 +12,6 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
 
+  nellyEmail: string = 'https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&su=Hello+world!&to=nellyok@u.northwesern.edu';
+  miyaEmail: string = 'https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&su=Hello+world!&to=miya.jia38@gmail.com';
 }
