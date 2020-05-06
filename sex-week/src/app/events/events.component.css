@@ -199,6 +199,7 @@ p.date {
   .events {
     flex-direction: column;
     width: 100%;
+    height: 100%;
     overflow-y: auto;
     position: normal;
     align-items: center;
@@ -211,5 +212,8 @@ p.date {
   }
   .event {
     margin-bottom: 10vw;
+  }
+  .card-cap {
+    position: normal;
   }
 }
