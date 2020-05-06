@@ -127,6 +127,7 @@ height: fit-content;
   bottom: 0;
   transition: .5s ease;
   flex-direction: column;
+  justify-content: center;
   width: inherit;
   align-items: center;
   background: #2229;
