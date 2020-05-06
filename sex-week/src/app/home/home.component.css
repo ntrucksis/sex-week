@@ -141,8 +141,8 @@
     background-color: #F8B195;
   }
 
- 
-  
+
+
   .row.bio-row {
     display: flex;
     flex-direction: row;
@@ -154,3 +154,9 @@
     top: -2rem;
     position: relative;
   }
+
+@media only screen and (max-width: 600px) {
+  .high-col {
+    flex: 0 0 100%;
+    max-width: 100%;  }
+}

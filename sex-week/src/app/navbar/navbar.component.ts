@@ -24,7 +24,7 @@ export class NavbarComponent implements OnInit {
   }
 
   goHome(): void {
-    this.router.navigate(["/home"]);
+    this.router.navigate([""]);
   }
 
   goToStreams(): void {
@@ -32,14 +32,14 @@ export class NavbarComponent implements OnInit {
   }
 
   goToAbout(): void {
-    let url = this.router.url;
-    if (url.includes('home')) {
-      this.window.document.getElementById('About').scrollIntoView();
-    }
-    else {
-      this.router.navigate(['/home', 'about'])
-    }
-  }
+   let url = this.router.url;
+   if (url == '') {
+     this.window.document.getElementById('About').scrollIntoView();
+   }
+   else {
+     this.router.navigate(['/about']);
+   }
+ }
 
 
   // ** This should have been in JQuery but I had an Issue with getting JQuery to work with Angular -Nelly//
@@ -54,7 +54,7 @@ export class NavbarComponent implements OnInit {
       var elementNav = document.getElementById("Nav");
       if ((window.pageYOffset >= 60)) {
           console.log("scrolling")
-          
+
           elementNav.classList.add("transparent");
       } else {
           console.log("Top")

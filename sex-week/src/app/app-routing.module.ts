@@ -7,18 +7,17 @@ import { StreamsComponent } from './streams/streams.component';
 
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent },
-  {path: 'home/about', component: HomeComponent},
-  {path: '', redirectTo: '/home', pathMatch: 'full'},
-  {path: 'events', component: EventsComponent},
-  {path: 'streams', component: StreamsComponent}
+{path: '', component: HomeComponent },
+{path: 'about', component: HomeComponent},
+{path: 'events', component: EventsComponent},
+{path: 'streams', component: StreamsComponent}
 ]
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes, { useHash: true })
   ],
   exports: [RouterModule]
 })
