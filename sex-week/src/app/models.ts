@@ -49,8 +49,9 @@ export const EVENTS: Event[] = [
   {
     title: 'sex KiKi',
     subtitle: 'MSTRBATION 101-6 – Masturbation for Manifestation',
-    pic: "../assets/images/kiki-box.PNG",
-    desc: `Masturbation is a catalyst for radical self-love.
+    pic: "../assets/images/kiki-box.png",
+    desc: `This interactive keynote focuses on our relationship with masturbation.
+    Masturbation is a catalyst for radical self-love.
 Masturbation as a ritual, healing modality, and a self-actualizing practice
 enabling us to take back our power through sex-positive means!
 Spiritually anchored, it transmutes sexual energy into unwavering life
