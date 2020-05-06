@@ -8,7 +8,7 @@ import { BIOS } from '../models'
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   providers: [
-    { provide: Window, useValue: window }
+    { provide: "Window", useValue: window }
   ]
 })
 export class HomeComponent implements OnInit {
@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private router: Router,
-    @Inject(Window) private window: Window
+    @Inject("Window") private window: Window
 ) { }
 
   ngOnInit() {

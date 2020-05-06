@@ -1,5 +1,4 @@
-import { Component, OnInit, Inject, HostListener } from '@angular/core';
-import { DOCUMENT } from '@angular/common';
+import { Component, OnInit, Inject, HostListener, Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,13 +6,13 @@ import { Router } from '@angular/router';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css'],
   providers: [
-    { provide: Window, useValue: window }
+    { provide: "Window", useValue: window }
   ]
 })
 export class NavbarComponent implements OnInit {
 
   constructor(
-    @Inject(Window) private window: Window,
+    @Inject("Window") private window: Window,
     private router: Router
   ) { }
 
