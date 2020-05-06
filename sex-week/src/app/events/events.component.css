@@ -193,3 +193,22 @@ p.date {
     bottom: 0;
     right: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .events {
+    flex-direction: column;
+    width: 100%;
+    overflow-y: auto;
+    position: normal;
+    align-items: center;
+  }
+  .left-scroll {
+    display: none;
+  }
+  .right-scroll {
+    display: none;
+  }
+  .event {
+    margin-bottom: 10vw;
+  }
+}

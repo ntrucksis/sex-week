@@ -33,7 +33,7 @@ export class NavbarComponent implements OnInit {
 
   goToAbout(): void {
    let url = this.router.url;
-   if (url == '') {
+   if (url == '' ||  url.includes('about')) {
      this.window.document.getElementById('About').scrollIntoView();
    }
    else {
