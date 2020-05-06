@@ -76,9 +76,7 @@ text-align: center;
   HEIGHT: 2.25REM;
 }
 
-.events-wrapper {
-  background-color: black;
-}
+
 
 .event-card{
 
@@ -136,6 +134,9 @@ height: fit-content;
 }
 
 
+.event-card-title {
+  background-color: #f8b195;
+}
 
 
 
@@ -215,5 +216,16 @@ p.date {
   }
   .card-cap {
     position: static;
+  }
+
+  .event-card {
+    width: 80vw;
+
+  }
+
+  .event-card img{
+    width: 100%;
+    height: auto;
+    
   }
 }
