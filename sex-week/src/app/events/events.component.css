@@ -201,7 +201,7 @@ p.date {
     width: 100%;
     height: 100%;
     overflow-y: auto;
-    position: normal;
+    position: static;
     align-items: center;
   }
   .left-scroll {
@@ -214,6 +214,6 @@ p.date {
     margin-bottom: 10vw;
   }
   .card-cap {
-    position: normal;
+    position: static;
   }
 }
