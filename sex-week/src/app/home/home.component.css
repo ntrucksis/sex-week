@@ -188,12 +188,22 @@
   .jiyul {
     flex-direction: column !important;
     text-align: center !important;
+      top: 0;
+    
+  }
+
+
+  .jiyul img {
+    padding-right: 0 !important;
     
   }
 
   .jiyul p, .jiyul h2{
     text-align: center!important;
-    
+  }
+
+  .bio-info {
+    padding: 1em 0 !important;
   }
 
   .soc-btn {
@@ -213,5 +223,9 @@
     width: 100%;
   }
 
+
+  #About {
+    text-align: center;
+  }
   
 }

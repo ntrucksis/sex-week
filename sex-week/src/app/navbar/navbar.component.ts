@@ -42,6 +42,9 @@ export class NavbarComponent implements OnInit {
  }
 
 
+
+ 
+
   // ** This should have been in JQuery but I had an Issue with getting JQuery to work with Angular -Nelly//
 
 
@@ -62,4 +65,12 @@ export class NavbarComponent implements OnInit {
       }
   };
 
+}
+
+
+export class NavComponent {
+  collapsed = true;
+  toggleCollapsed(): void {
+    this.collapsed = !this.collapsed;
+  }
 }

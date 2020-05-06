@@ -1,6 +1,6 @@
 p {
       text-align: center;
-      font-size: 60px;
+      font-size: 4em;
       margin-top: 3rem;
 }
 
@@ -12,4 +12,9 @@ p {
 .streams {
   text-align: center;
   height: 100vh;
+}
+
+#demo {
+  color: #ff6691;
+  font-family: 'Roboto Slab', serif;
 }

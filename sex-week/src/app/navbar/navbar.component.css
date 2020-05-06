@@ -44,3 +44,11 @@
 .navbar {
     padding-bottom: 0;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .nav-item {
+    width: fit-content;
+    }
+}
