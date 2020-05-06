@@ -13,11 +13,29 @@ body {
     padding: 0;
     font-family: 'Maven Pro', sans-serif;
     background-color: #a3dae3;
+    transition: .5s ease;
   }
 
 
 .row {
+    margin: auto;
     width: 100%;
+}
+
+.container {
+    max-width: 80vw;
+}
+
+.fl-col, .fl-row {
+    display: flex;
+}
+
+.fl-col{
+    flex-direction: column;
+}
+
+.fl-row {
+    flex-direction: row;
 }
 
 

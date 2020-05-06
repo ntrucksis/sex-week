@@ -1,21 +1,20 @@
 <div class="spotify-socials home-section"ßßß>
 <div class="container">
-    <div class="row">
-        <div class="spotify col">
-            <iframe class="d-flex m-auto col" src="https://open.spotify.com/embed/playlist/1mZo9DUtXiYMZOqhQE0pDo" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-        </div>
-
-        <div class="socials col">
+    <div class="fl-col">
+        <div class="socials fl-row">
             <a class="soc-btn btn col fb-btn" (click)="goToFacebook()">
-                Check out our facebook <span class="facebook-icon" ><i class="fab fa-facebook-f"></i></span>
+               <span class="facebook-icon" ><i class="fab fa-facebook-f"></i></span>
             </a>
             <a class="soc-btn btn col ig-btn" (click)="goToInstagram()">
-                Follow us on Insta <span class="instagram-icon" (click)="goToYoutube()"><i class="fab fa-instagram"></i></span>
+                <span class="instagram-icon" (click)="goToYoutube()"><i class="fab fa-instagram"></i></span>
             </a>
             <a class="soc-btn btn col yt-btn" (click)="goToYoutube()">
-                Subscribe to our Youtube <span class="youtube-icon" ><i class="fas fa-play"></i></span>
+                <span class="youtube-icon" ><i class="fas fa-play"></i></span>
             </a>
+        </div>
+
+        <div class="spotify">
+            <iframe class="d-flex m-auto col" src="https://open.spotify.com/embed/playlist/1mZo9DUtXiYMZOqhQE0pDo" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
 </div>

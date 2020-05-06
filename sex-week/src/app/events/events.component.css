@@ -65,6 +65,16 @@ text-align: center;
     transform: translateX(-66.6666%);
   }
 }
+.mat-button-wrapper {
+  background-color: #f8b195;;
+  WIDTH: 2.25REM;
+  font-size: 2.5rem;
+  border-radius: 100%;
+  DISPLAY: FLEX;
+  ALIGN-ITEMS: CENTER;
+  JUSTIFY-CONTENT: CENTER;
+  HEIGHT: 2.25REM;
+}
 
 .events-wrapper {
   background-color: black;
@@ -156,8 +166,14 @@ font-size: 1.5rem;
   font-family: 'Roboto Slab', serif;
 }
 
-a.btn.event-enroll {
-  margin-bottom: 150px;
+.btn.event-enroll {
+  color: #023059;
+  text-shadow: none;
+}
+
+.btn.event-enroll:hover {
+  color: #f8b195;
+  background-color: #023059;
 }
 
 p.date {

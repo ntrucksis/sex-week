@@ -2,7 +2,7 @@
 <br><br>
 
 <div class="events-wrapper" >
-  <button *ngIf="leftScrollFlag" class="left-scroll" mat-button (click)="scrollLeft()"><span class="material-icons">keyboard_arrow_left</span></button>
+  <button *ngIf="leftScrollFlag" class="left-scroll" mat-button (click)="scrollLeft()"><span class="mat-button-wrapper material-icons">keyboard_arrow_left</span></button>
   <div #widgetsContent class="container events d-flex">
     <div class="event-card d-flex event" *ngFor="let event of events">
       <div class="event-card-title">
@@ -26,6 +26,6 @@
       </div>
     </div>
   </div>
-  <button *ngIf="rightScrollFlag" class="right-scroll" mat-button (click)="scrollRight()"><span class="material-icons">keyboard_arrow_right</span></button>
+  <button *ngIf="rightScrollFlag" class="right-scroll" mat-button (click)="scrollRight()"><span class="mat-button-wrapper material-icons">keyboard_arrow_right</span></button>
 
 </div>
