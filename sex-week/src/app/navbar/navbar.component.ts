@@ -39,6 +39,13 @@ export class NavbarComponent implements OnInit {
    else {
      this.router.navigate(['/about']);
    }
+
+ }
+
+ collapsed = true;
+
+ toggleCollapsed(): void {
+   this.collapsed = !this.collapsed;
  }
 
 
@@ -68,9 +75,4 @@ export class NavbarComponent implements OnInit {
 }
 
 
-export class NavComponent {
-  collapsed = true;
-  toggleCollapsed(): void {
-    this.collapsed = !this.collapsed;
-  }
-}
+
