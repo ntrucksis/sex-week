@@ -125,8 +125,7 @@ height: fit-content;
   bottom: 0;
   transition: .5s ease;
   flex-direction: column;
-  justify-content: center;
-  width: inherit;
+  justify-content: space-evenly;
   align-items: center;
   background: #2229;
   color: white;
@@ -141,7 +140,7 @@ height: fit-content;
 
 
 .card-cap, .event-card-title {
-padding: 1em;
+padding: 2em;
 }
 .event-card-title p{
 margin-bottom: 0;
@@ -150,8 +149,8 @@ margin-bottom: 0;
 .cap-bottom {
 
 flex-direction: column;
-justify-content: space-between;
-align-items: center;
+justify-content: space-around;
+align-self: stretch;
 
 }
 
@@ -163,14 +162,16 @@ font-size: 1.5rem;
 
 .cap-text {
   height: 13vw;
-  margin: auto;
   overflow-y: auto;
+  height: 60%;
+  font-size: 1.5em;
   font-family: 'Roboto Slab', serif;
 }
 
 .btn.event-enroll {
   color: #023059;
   text-shadow: none;
+  font-size: 1.25em;
 }
 
 .btn.event-enroll:hover {
@@ -228,4 +229,40 @@ p.date {
     height: auto;
     
   }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+  .events {
+    top: 7.5%;
+    padding: 0;
+    width: 163vh;
+  }
+
+  .event-card-title {
+    height: 11vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-card img {
+    height: 81.5vh;
+  }
+
+  .event-card {
+    width: 50%;
+  }
+
+  .card-cap {
+    width: 100%;
+  }
+
+ 
 }

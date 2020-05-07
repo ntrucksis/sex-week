@@ -28,19 +28,32 @@ export class EventsComponent implements OnInit {
   @ViewChild('widgetsContent', {static: false}) widgetsContent: ElementRef;
 
   scrollRight() {
+    console.log("height is", window.innerHeight)
+
+    let scrHeight =  window.innerHeight * 0.815;
+    console.log("scroll height", scrHeight)
     this.leftScrollFlag = true;
-    this.widgetsContent.nativeElement.scrollLeft += 500;
+    this.widgetsContent.nativeElement.scrollLeft += scrHeight;
     if (this.widgetsContent.nativeElement.scrollLeft >= 5200) {
       this.rightScrollFlag = false;
     }
   }
 
+
+
+
   scrollLeft() {
+    console.log("height is", window.innerHeight)
+
+    let scrHeight =  window.innerHeight * 0.815;
+    console.log("scroll height", scrHeight)
+
+
     if (this.widgetsContent.nativeElement.scrollLeft >= 5400) {
       this.rightScrollFlag = true;
     }
-    this.widgetsContent.nativeElement.scrollLeft -= 500;
-    if (this.widgetsContent.nativeElement.scrollLeft <= 500) {
+    this.widgetsContent.nativeElement.scrollLeft -= scrHeight;
+    if (this.widgetsContent.nativeElement.scrollLeft <= scrHeight) {
       this.leftScrollFlag = false;
     }
   }
