@@ -16,7 +16,7 @@
           {{event.desc}}
         </p>
         <div class="cap-bottom d-flex">
-          <a class="btn event-enroll" (click)="openDialog()">Enroll</a>
+          <a class="btn event-enroll" target="_blank" href={{event.regLink}}>Enroll</a>
           <p class="date">{{event.date | date: 'short'}}</p>
           <a *ngIf="event.signupLink" href={{event.signupLink}} target="_blank"
             class="btn event-enroll">{{event.signups}}</a>

@@ -46,7 +46,7 @@ export class EventsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.openDialog();
+
   }
 
   openDialog(): void {

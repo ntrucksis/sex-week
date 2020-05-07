@@ -70,7 +70,7 @@ focus on spirituality and eroticism to highlight sexuality as a
 healing art. She’s known for her masturbation philosophies and
  approach to building pleasure based communities.`,
     id: 1,
-    regLink: "",
+    regLink: "https://northwestern.zoom.us/meeting/register/tJYocemrrDooH9Nu58E_D6H7665wQvYIIuf-",
     signups: '',
     date: new Date('May 11, 2020 18:30:00'),
     signupLink: '',
@@ -94,7 +94,7 @@ healing art. She’s known for her masturbation philosophies and
                transforming into the Real Life Burlesque Royalty that presides
                 in each of us.`,
     id: 2,
-    regLink: '',
+    regLink: 'https://northwestern.zoom.us/meeting/register/tJ0uduuvpjkpGNy7CJhDCCoJ-zuA44Lq1LTA',
     signups: '',
     date: new Date('May 11, 2020 20:30:00'),
     signupLink: '',
@@ -111,7 +111,7 @@ healing art. She’s known for her masturbation philosophies and
      and economy.  A critical look is taken at our concepts of justice and best
       practices moving forward are discussed.`,
     id: 3,
-    regLink: "",
+    regLink: "https://northwestern.zoom.us/meeting/register/tJwscO2grTItHdRsNvcUS6AAsGBqEJlJhBvA",
     signups: '',
     date: new Date('May 12, 2020 18:30:00'),
     signupLink: '',
@@ -131,7 +131,7 @@ healing art. She’s known for her masturbation philosophies and
          shuns. Through Radical Visibility, we refuse to assimilate and can
           create a QueerCrip dress reform movement.” Join us for their keynote.`,
     id: 4,
-    regLink: '',
+    regLink: 'https://northwestern.zoom.us/meeting/register/tJIod-qppz8vHNJRVB2mdOSZ_m-S1LQzp8Et',
     signups: '',
     date: new Date('May 13, 2020 18:00:00'),
     signupLink: '',
@@ -152,7 +152,7 @@ healing art. She’s known for her masturbation philosophies and
          pen. If you’re unable to gather supplies please still feel free to
           attend!`,
     id: 5,
-    regLink: '',
+    regLink: 'https://northwestern.zoom.us/meeting/register/tJwqc-mqrz8tE9Osm7PW-4MGP3Km-yBz5lOi',
     signups: '',
     date: new Date('May 13, 2020 20:00:00'),
     signupLink: '',
@@ -167,7 +167,7 @@ healing art. She’s known for her masturbation philosophies and
     with a drag tutorial!! They’ll each be doing some looks for us and
      answering questions reverse bingo style. `,
     id: 6,
-    regLink: '',
+    regLink: 'https://northwestern.zoom.us/meeting/register/tJIpfumrqzMuGdX7KjPSWG32lTKYgLwpoGeP',
     signups: '',
     date: new Date('May 14, 2020 15:30:00'),
     signupLink: '',
@@ -184,7 +184,7 @@ healing art. She’s known for her masturbation philosophies and
        participate. Please only register to play if you and 3 other people
        are able to make it to the ENTIRE event.`,
     id: 7,
-    regLink: ``,
+    regLink: `https://northwestern.zoom.us/meeting/register/tJEvd-ipqz0qH9euaCTJ50TxHjihgfJwkpPy`,
     signups: 'Sign up to Play!',
     date: new Date('May 14, 2020 18:00:00'),
     signupLink: 'https://docs.google.com/forms/d/e/1FAIpQLScDnakSs2PKDEEqKdU5HX5Kj-5YkrmjHCDZMdu93jOCiDtjQA/viewform?usp=sf_link',
@@ -204,7 +204,7 @@ healing art. She’s known for her masturbation philosophies and
           for non white and non skinny bodies. No special equipment needed ;)
            Content Warning: Sample photos including nudity will be shown!`,
     id: 8,
-    regLink: '',
+    regLink: 'https://northwestern.zoom.us/meeting/register/tJMlc--orz8jE9WS2nbTYRyacoFYvSJEIb7l',
     signups: '',
     date: new Date('May 14, 2020 20:30:00'),
     signupLink: '',
@@ -226,7 +226,7 @@ healing art. She’s known for her masturbation philosophies and
      pianist, they create cunty, loud, and arrogant art to empower themselves and
     anyone who resonates.`,
     id: 9,
-    regLink: "",
+    regLink: "https://northwestern.zoom.us/meeting/register/tJcud-GspzIjGNPhBnbXGdOE_IHC1IdxMijO",
     signups: '',
     date: new Date('May 15, 2020 16:00:00'),
     signupLink: '',
@@ -241,7 +241,7 @@ healing art. She’s known for her masturbation philosophies and
      story gets voted for best in its category you can win a prize! You’ll be able to share without signing up but priority will
        be given to those folks first. `,
     id: 10,
-    regLink: "",
+    regLink: "https://northwestern.zoom.us/meeting/register/tJ0tcuqgqD0uGtPCKh0seVT3D0j6YWkttBe4",
     signups: 'Sign up to Share!',
     date: new Date('May 15, 2020 18:00:00'),
     signupLink: 'https://docs.google.com/forms/d/e/1FAIpQLScdWFKnsmcrX8mmnXAv1RgHAknoOo2SmMHxCNqP9HpHw6gehA/viewform?usp=sf_link',
@@ -255,7 +255,7 @@ healing art. She’s known for her masturbation philosophies and
     desc: `Join us for a night of fun and enjoy the cooooool tunes of Cunty
     MeMe! You can find their music here:`,
     id: 11,
-    regLink: "",
+    regLink: "https://northwestern.zoom.us/meeting/register/tJcrceioqTgiHNQSZy9Jh9L7_XfvJFYZsZie",
     signups: '',
     date: new Date('May 15, 2020 20:30:00'),
     signupLink: '',
