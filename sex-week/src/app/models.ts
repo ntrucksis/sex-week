@@ -214,7 +214,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Cunty MeMe',
     subtitle: 'EROTIC_LIBRTION 101-9 - The Use of the Erotic',
-    pic: '../assets/images/cunty-box.PNG',
+    pic: '../assets/images/cunty-box.png',
     desc: `This workshop is meant to be an intimate and interactive environment
     where we discuss the role sex plays in our daily lives, relationships as
     well as our culture and society. We will dissect the meaning of the use of
@@ -251,7 +251,7 @@ healing art. She’s known for her masturbation philosophies and
   {
     title: 'Cunty MeMe',
     subtitle: 'PERF_ST 101-8 – A Concert featuring Cunty MeMe',
-    pic: '../assets/images/cunty-box.PNG',
+    pic: '../assets/images/cunty-box.png',
     desc: `Join us for a night of fun and enjoy the cooooool tunes of Cunty
     MeMe! You can find their music here:`,
     id: 11,
