@@ -17,8 +17,6 @@
   font-weight: 400;
 }
 
-
-
 .tabs {
   width: 100%;
   height: 100px;
@@ -30,7 +28,6 @@
 .home-section {
   padding: 3em 0;
 }
-
 
 .tab {
   margin-left: 20px;
@@ -46,7 +43,6 @@
   text-align: center;
   display: inline-block;
 }
-
 
 .about-section {
   text-align: center;
@@ -66,114 +62,108 @@
   display: inline-block;
 }
 
+.container.highlights {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+}
 
-.container.highlights{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    max-width: 100vw;
-  }
+.high-1 {
+  background-color: #F8B195;
+}
 
-  .high-1 {
-    background-color: #F8B195;
-  }
+.high-2 {
+  background-color: #E69597;
+}
 
-  .high-2 {
-    background-color: #E69597;
-  }
+.high-3 {
+  background-color: #FF7477;
+}
 
-  .high-3 {
-    background-color: #FF7477;
-  }
+.high-col {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4em 2em;
+  justify-content: space-around;
+  transition: transform .3s;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2),
+    0 1px 1px 0 rgba(0, 0, 0, .14),
+    0 1px 3px 0 rgba(0, 0, 0, .12);
+}
 
+.high-col:hover {
+  transform: translateY(-1em);
+  z-index: 1;
+}
+
+.highlights .row {
+  width: 100vw;
+}
+
+.highlights i {
+  font-size: 5em;
+}
+
+.high-btn {
+  background-color: transparent;
+  font-size: 1.75em;
+  border: 3px solid #023059;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.25em;
+  white-space: normal;
+}
+
+.featurette {
+  align-items: center;
+}
+
+.marketing {
+  padding-bottom: 2em;
+}
+
+#bioPic {
+  width: 400px
+}
+
+@media screen and (min-width: 300px) {
   .high-col {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 4em 2em;
-    justify-content: space-around;
-    transition: transform .3s;
-
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
   }
+}
 
-  .high-col:hover {
-    transform: translateY(-1em);
-    z-index: 1;
-  }
+app-footer {
+  border: 0;
+}
 
-  .highlights .row {
-    width: 100vw;
-    
-  }
+p .lead {
+  margin-right: 100px;
+}
 
-  .highlights i {
-    font-size: 5em;
-  }
+#Organizers {
+  background-color: #F8B195;
+}
 
-  .high-btn {
-    background-color: transparent;
-    font-size: 1.75em;
-    border: 3px solid #023059;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: 1.25em;
-    white-space: normal;
-  }
+.row.bio-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
 
-  .featurette {
-    align-items: center;
-  }
-
-
-
-  .marketing {
-    padding-bottom: 2em;
-  }
-
-  #bioPic {
-    width: 400px
-  }
-
-
-  @media screen and (min-width: 300px) {
-    .high-col {
-      flex: 0 0 33.333333%;
-      max-width: 33.333333%;
-    }
-  }
-
-  app-footer {
-    border: 0;
-  }
-
-  p .lead {
-    margin-right: 100px;
-  }
-
-
-  #Organizers {
-    background-color: #F8B195;
-  }
-
-
-
-  .row.bio-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-  }
-
-  .jiyul {
-    top: -2rem;
-    position: relative;
-  }
+.jiyul {
+  top: -2rem;
+  position: relative;
+}
 
 @media only screen and (max-width: 600px) {
   .high-col {
     flex: 0 0 100%;
-    max-width: 100%;  
+    max-width: 100%;
   }
 
   .eliza {
@@ -188,18 +178,15 @@
   .jiyul {
     flex-direction: column !important;
     text-align: center !important;
-      top: 0;
-    
+    top: 0;
   }
-
 
   .jiyul img {
     padding-right: 0 !important;
-    
   }
 
-  .jiyul p, .jiyul h2{
-    text-align: center!important;
+  .jiyul p, .jiyul h2 {
+    text-align: center !important;
   }
 
   .bio-info {
@@ -214,7 +201,7 @@
     font-size: 1rem;
   }
 
-  .highlights i{
+  .highlights i {
     font-size: 3em;
   }
 
@@ -223,9 +210,7 @@
     width: 100%;
   }
 
-
   #About {
     text-align: center;
   }
-  
 }
