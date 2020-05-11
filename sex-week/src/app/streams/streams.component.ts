@@ -42,7 +42,8 @@ export class StreamsComponent implements OnInit {
       if (distance < 0) {
         clearInterval(x);
         this.count += 1;
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        window.location.reload();
+        this.getEvent();
       }
 
   }, 1000);
