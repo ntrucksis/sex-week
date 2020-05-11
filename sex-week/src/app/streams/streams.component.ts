@@ -20,9 +20,8 @@ export class StreamsComponent implements OnInit {
   }
 
   getEvent() {
-    let i = this.count;
-    let event = this.events[i];
-    this.event = event;
+    this.parseEvents();
+    let event = this.event;
     var eventDate = new Date(event.date).getTime();
 
     var x = setInterval(function() {
@@ -41,14 +40,25 @@ export class StreamsComponent implements OnInit {
 
       if (distance < 0) {
         clearInterval(x);
-        this.count += 1;
-        window.location.reload();
-        this.getEvent();
+        document.getElementById("demo").innerHTML = "EXPIRED";
       }
 
   }, 1000);
+}
 
+  parseEvents() {
+    let events = this.events;
+    const dates = [];
+    const distances = [];
+    for (let i = 0; i < events.length - 1; i++) {
+      dates.push(events[i].date);
+      let now = new Date().getTime();
+      let dist = dates[i].getTime() - now;
+      if (dist > 0 ) {
+        distances.push(events[i]);
+      }
+    }
+    this.event = distances[0];
   }
-
 
 }
